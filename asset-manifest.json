@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/todd-kridel-portfolio-webpage-react/static/css/main.407228ea.css",
+    "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.409d2f0d.js",
+    "index.html": "/todd-kridel-portfolio-webpage-react/index.html",
+    "main.407228ea.css.map": "/todd-kridel-portfolio-webpage-react/static/css/main.407228ea.css.map",
+    "main.409d2f0d.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.409d2f0d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.407228ea.css",
+    "static/js/main.409d2f0d.js"
+  ]
+}
