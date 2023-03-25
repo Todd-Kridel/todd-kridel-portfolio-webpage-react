@@ -1,0 +1,74 @@
+.form {
+  margin: 20px;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+
+.header {
+  background: #f9b713;
+  height: 200px;
+}
+
+.header h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+
+.header2 {
+  background: #b71775;
+  height: 200px;
+}
+
+.header2 h1 {
+  margin: 0;
+  padding-top: 75px;
+  text-align: center;
+  color: white;
+  font-size: 3rem;
+}
+
+
+.navbar2 {
+  background: #6a1b9a;
+  height: 60px;
+}
+
+.navbar2 a {
+  color: white;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
+
+
+.section2 {
+  background: #f3e5f5;
+  padding: 20px;
+}
+
+.section2 h2 {
+  text-align: center;
+}
+
+
+.ui-container {
+  border: 2px double purple; 
+  background-color: orange;
+  padding: 15px;
+}
+
+.ui-container a {
+  color: purple;
+}
+
