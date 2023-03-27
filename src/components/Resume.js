@@ -44,8 +44,6 @@ return (
     <li>ITEM</li>
     <li>ITEM</li>
   </ul>
-
-  <br/>
   <br/>
 
 </div>
