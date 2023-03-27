@@ -12,7 +12,7 @@ return (
 <footer className="footer">
 
   <h4 className="pCenter">
-    <span title="(Note: This item is not a link.)">[&nbsp;Phone:&nbsp;720&#8209;939&#8209;8917&nbsp;]</span>
+    <span title="(Note: This item is not a link.)"> [&nbsp;Phone:&nbsp;720&#8209;939&#8209;8917&nbsp;]</span>
     &nbsp; &nbsp; <a href="mailto:todd.kridel@gmail.com" 
       title="(Note: This link requires an installed mail application; If necessary, just copy and paste.)">
       [&nbsp;todd.kridel@gmail.com&nbsp;]</a>
