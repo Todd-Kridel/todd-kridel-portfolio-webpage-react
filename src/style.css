@@ -56,13 +56,15 @@ html, body {
 }
 
 .header h1, .footer h1, .footer h4 {
-  margin: 0px;
+  margin-top: 5px;
   padding: 0px;
   text-align: center;
   color: white;
   font-size: 25px;
-  line-height: 50px;
+  line-height: 35px;
   background: #f9b713;
+  margin-left: 5%;
+  margin-right: 5%;
   font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 

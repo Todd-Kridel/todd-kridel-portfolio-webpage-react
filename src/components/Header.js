@@ -11,7 +11,7 @@ function Header() {
 return (
 <header className="header">
 
-  <h1>Todd Kridel's Personal Work Online Portfolio</h1>
+  <h1>Todd Kridel's Online Portfolio of Work</h1>
 
 </header>
 );
