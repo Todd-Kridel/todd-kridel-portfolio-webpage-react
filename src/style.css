@@ -1,3 +1,38 @@
+
+
+h1, h2, h3, h4 {
+  text-align: center;
+  padding-top: 10px;
+  /*color: white;*/
+  /*background-color: rgba(0, 0, 0, 0.200);*/
+}
+
+html, body {
+
+  height: 100%;
+  padding: 10px;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+/*
+.bg-img {
+  background: url("./images/main_background_art.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .75;
+}
+*/
+
+.bodySectionContainer {
+  height: 60vh;
+  overflow: auto;
+}
+
 .form {
   margin: 20px;
 }
@@ -9,34 +44,26 @@
   width: 100%;
 }
 
+.header, .footer {
+  height: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background: url("./images/main_background_art.jpg") no-repeat 100% center;
+}
 
-.header {
+.header h1, .footer h1, .footer h4 {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  line-height: 50px;
   background: #f9b713;
-  height: 200px;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
+.footer h4 {
+  font-size: 15px;
 }
-
-
-.header2 {
-  background: #b71775;
-  height: 200px;
-}
-
-.header2 h1 {
-  margin: 0;
-  padding-top: 75px;
-  text-align: center;
-  color: white;
-  font-size: 3rem;
-}
-
 
 .navbar2 {
   background: #6a1b9a;
@@ -51,7 +78,6 @@
   line-height: 3;
 }
 
-
 .section2 {
   background: #f3e5f5;
   padding: 20px;
@@ -61,14 +87,26 @@
   text-align: center;
 }
 
-
 .ui-container {
-  border: 2px double purple; 
+  border: 2px double purple;
   background-color: orange;
   padding: 15px;
 }
 
 .ui-container a {
   color: purple;
+}
+
+.pCenter {
+  text-align: center;
+}
+
+.linkSpan {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:visited, a:link {
+  color: black;
 }
 
