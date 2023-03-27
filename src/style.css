@@ -124,6 +124,20 @@ a:visited, a:link {
 }
 
 .nav-link:hover {  /*  className = ".nav-link active" ? */
-  color: yellow;
-  font-size: 1.1em
+  color: yellow !important;
 }
+
+.nav-link_active {
+  color: white !important;
+  font-weight: bold;
+  text-decoration: none;
+  background-color: rgb(52, 54, 56);
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 5px 5px 0px 0px;
+}
+

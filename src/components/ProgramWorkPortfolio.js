@@ -23,6 +23,7 @@ return (
     rel="noreferrer"><img id="work_image_P2" width="50%" 
     src={require("../images/Project 2 Sweet Solution Demo.jpg")} 
     title="a picture of the 'Sweet Solution' 2nd team project" /></a></p>
+  <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://sweet-solution.herokuapp.com" target="_blank" rel="noreferrer">
@@ -31,11 +32,10 @@ return (
   </p>
   <p className="pCenter">
     <React.Fragment>
-      <a href="https://github.com/Todd-Kridel" target="_blank" rel="noreferrer">
+      <a href="https://github.com/EarlofSmith/sweet-solution" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
-  <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
 
   <h3 className="portfolioHeading">Social Network API</h3>
   <p className="pCenter">MongoDB/Mongoose Database, Node, API backend functionality, Schema/Model, Routes, No-SQL</p>
@@ -66,7 +66,7 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
-        [ More Information: Heroku internet deployment ]</a>
+        [ More Information: GitHub Pages demo pictures and Heroku internet deployment ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
@@ -199,6 +199,7 @@ return (
     target="_blank" rel="noreferrer"><img id="work_image_P1" width="50%" 
     src={require("../images/Project 1 -- Project Camp.jpg")} 
     title="a picture of the 'Project Camp' 1st team project" /></a></p>
+  <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://alester77.github.io/Project-Camp" target="_blank" rel="noreferrer">
@@ -207,11 +208,10 @@ return (
   </p>
   <p className="pCenter">
     <React.Fragment>
-      <a href="https://github.com/Todd-Kridel/" target="_blank" 
+      <a href="https://github.com/alester77/Project-Camp" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
-  <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
 
   <h3 className="portfolioHeading">Workday Time Scheduler </h3>
   <p className="pCenter">jQuery, Bootstrap, APIs, timers, events, local storage and loading, HTML element tracking</p>

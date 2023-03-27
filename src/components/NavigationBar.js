@@ -23,21 +23,21 @@ return (
     <li className="nav-item">
       <a href="#aboutMe"
       onClick={() => handlePageChange("About Me")}
-      className={currentPage === "About Me" ? "nav-link active" : "nav-link"}
+      className={currentPage === "About Me" ? "nav-link_active" : "nav-link"}
       >About Me
       </a>
     </li>
     <li className="nav-item">
       <a href="#programWorkPortfolio"
       onClick={() => handlePageChange("Program Work Portfolio")}
-      className={currentPage === 'Program Work Portfolio' ? 'nav-link active' : 'nav-link'}
+      className={currentPage === 'Program Work Portfolio' ? 'nav-link_active' : 'nav-link'}
       >Program Work Portfolio
       </a>
     </li>
     <li className="nav-item">
       <a href="#contactMe"
       onClick={() => handlePageChange("Contact Me")}
-      className={currentPage === "Contact Me" ? "nav-link active" : "nav-link"}
+      className={currentPage === "Contact Me" ? "nav-link_active" : "nav-link"}
       >Contact Me
       </a>
     </li>
@@ -46,7 +46,7 @@ return (
       onClick={() => handlePageChange("Resume")}
       // Check about if the currentPage is "Resume", and if so we use the active link class from bootstrap. 
       // Otherwise set it to a normal nav-link.
-      className={currentPage === "Resume" ? "nav-link active" : "nav-link"}
+      className={currentPage === "Resume" ? "nav-link_active" : "nav-link"}
       >Resume
       </a>
     </li>

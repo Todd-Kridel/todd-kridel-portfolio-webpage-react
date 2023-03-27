@@ -15,16 +15,15 @@ return (
   <p className="pCenter">
   ++ RESUME PAGE INFORMATION ++<br/>
   <br/>
-  <br/>
 
   <p className="pCenter">
     <React.Fragment>
-      <a href="./images/Todd Kridel's resume distribution file.txt" target="_blank" rel="noreferrer">
-        [ Download the Resume Distribution File ]
-      </a>
+      <a href="./images/Todd Kridel's resume distribution file.txt" 
+        download="Todd Kridel's resume distribution file.txt">
+        [ Download the Resume Distribution File ]</a>
     </React.Fragment>
   </p>
-  <br/>
+
   <br/>
   * information item<br/>
   * information item<br/>
