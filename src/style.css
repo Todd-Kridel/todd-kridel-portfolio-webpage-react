@@ -3,12 +3,10 @@
 h1, h2, h3, h4 {
   text-align: center;
   padding-top: 10px;
-  /*color: white;*/
-  /*background-color: rgba(0, 0, 0, 0.200);*/
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 html, body {
-
   height: 100%;
   padding: 10px;
   position: absolute;
@@ -16,8 +14,7 @@ html, body {
   top: 0px;
   left: 0px;
   right: 0px;
-  font-family: "MS Comic Sans", Arial, Helvetica, "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif
-
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 /*
@@ -33,11 +30,13 @@ html, body {
 .bodySectionContainer {
   height: 60vh;
   overflow: auto;
-  background-color: rgb(230, 233, 230);
+  background-color: rgb(245, 235, 225);
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .form {
   margin: 20px;
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .form input {
@@ -45,6 +44,7 @@ html, body {
   margin-top: 5px;
   margin-bottom: 5px;
   width: 100%;
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .header, .footer {
@@ -52,6 +52,7 @@ html, body {
   padding-top: 25px;
   padding-bottom: 25px;
   background: url("./images/main_background_art.jpg") no-repeat 100% center;
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .header h1, .footer h1, .footer h4 {
@@ -62,42 +63,19 @@ html, body {
   font-size: 25px;
   line-height: 50px;
   background: #f9b713;
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .footer h4 {
   font-size: 15px;
 }
 
-.navbar2 {
-  background: #6a1b9a;
-  height: 60px;
-}
-
-.navbar2 a {
+.portfolioHeading {
   color: white;
-  font-size: 1.3rem;
-  text-decoration: none;
-  margin: 5px;
-  line-height: 3;
-}
-
-.section2 {
-  background: #f3e5f5;
-  padding: 20px;
-}
-
-.section2 h2 {
-  text-align: center;
-}
-
-.ui-container {
-  border: 2px double purple;
-  background-color: orange;
-  padding: 15px;
-}
-
-.ui-container a {
-  color: purple;
+  background-color: purple;
+  padding-bottom: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .pCenter {
@@ -119,5 +97,9 @@ a:visited, a:link {
   height: 300px;
   overflow: auto;
   vertical-align: top;
+}
+
+.nav-item {
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
