@@ -14,6 +14,8 @@ return (
   <h1>Resume Page</h1>
   <p className="pCenter">
   ++ RESUME PAGE INFORMATION ++<br/>
+  <br/>
+  <br/>
 
   <p className="pCenter">
     <React.Fragment>
@@ -21,7 +23,7 @@ return (
         [ Download the Resume Distribution File ]</a>
     </React.Fragment>
   </p>
-
+  <br/>
   <br/>
   * information item<br/>
   * information item<br/>
