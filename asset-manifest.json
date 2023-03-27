@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/todd-kridel-portfolio-webpage-react/static/css/main.3420a6b2.css",
+    "main.css": "/todd-kridel-portfolio-webpage-react/static/css/main.b4775f74.css",
     "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.d0196308.js",
     "static/media/Project 1 -- Project Camp.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Project 1 -- Project Camp.28e42c3e9715fe3e1520.jpg",
     "static/media/Challenge_14_mockup_0.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge_14_mockup_0.2d76b31d945c39f23c3e.jpg",
@@ -18,11 +18,11 @@
     "static/media/Module 3 Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Module 3 Mockup.76b7158c61ca3a72b4af.jpg",
     "static/media/Module 5 Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Module 5 Mockup.9074a2f464f1e414cff7.jpg",
     "index.html": "/todd-kridel-portfolio-webpage-react/index.html",
-    "main.3420a6b2.css.map": "/todd-kridel-portfolio-webpage-react/static/css/main.3420a6b2.css.map",
+    "main.b4775f74.css.map": "/todd-kridel-portfolio-webpage-react/static/css/main.b4775f74.css.map",
     "main.d0196308.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.d0196308.js.map"
   },
   "entrypoints": [
-    "static/css/main.3420a6b2.css",
+    "static/css/main.b4775f74.css",
     "static/js/main.d0196308.js"
   ]
 }
