@@ -20,13 +20,13 @@ return (
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/todd-kridel-portfolio-webpage-react/tree/main/src/images/Todd Kridel's resume distribution file.txt" 
         download="Todd Kridel's resume distribution file.txt">
-        [ Download the Resume Distribution File ]</a>
+        [ Download/Copy the Entire Main Resume Distribution File ]</a>
     </React.Fragment>
+    (From the GitHub Repository)
   </p>
 
+  <h3>Resume Summary</h3>
   <br/>
-  * information item<br/>
-  * information item<br/>
   * information item<br/>
   * information item<br/>
   * information item<br/>
