@@ -21,11 +21,11 @@ return (
       <a href="https://github.com/Todd-Kridel/todd-kridel-portfolio-webpage-react/tree/main/src/images/Todd Kridel's resume distribution file.txt" 
         download="Todd Kridel's resume distribution file.txt">
         [ Download/Copy the Entire Main Resume Distribution File ]</a>
-    </React.Fragment>
+    </React.Fragment><br/>
     (From the GitHub Repository)
   </p>
 
-  <h3>Resume Summary</h3>
+  <h3><span style={{textDecoration: "underline"}}>Resume Summary</span></h3>
   <br/>
   * information item<br/>
   * information item<br/>

@@ -23,26 +23,26 @@ import Resume from "./Resume.js";
 // WHEN I load the portfolio the first time
 // THEN the About Me title and section are selected by default
 
-// {scrollPageToTop()}
+
+// {scrollPageToTop()}  // an alternate approach attempt
 //const scrollPageToTop = () => {
 //  document.getElementById("BodyContentContainer").scroll(0, 0);
-  //document.querySelector("BodyContentContainer").scroll(0, 0);
 //}
+
 
 function BodyPageContentContainer() {
 
 const [currentPage, setCurrentPage] = useState("About Me");
 
-// When a new page content section is rendered after being selected by tab...then scroll that content to the top.
+// When a new page content section is rendered at after being selected by tab click...then scroll 
+// that container view of that new content to the top (for in case that a previous tab has already 
+// been viewed/scrolled to a lower section of the contain view space.
 useEffect(() => {
-// {scrollPageToTop()}
-//const scrollPageToTop = () => {
 document.getElementById("BodyContentContainer").scroll(0, 0);
-//document.querySelector("BodyContentContainer").scroll(0, 0);
-//}
 });
 
-// Determine about what the current page is; with the "About Me" page by default upon initial page load;
+// Determine about what the current page is; with the "About Me" page by default upon initial page 
+// load;
 const renderPage = () => {
 if (currentPage === "About Me") {
 return (
@@ -78,9 +78,9 @@ const handlePageChange = (page) => {
 setCurrentPage(page);
 //document.getElementById("BodyContentContainer").scroll(0, 0);
 };
-// Pass the current page value from the state memory and pass the function that is used to update the page state.
-// Call to the renderPage function to refresh the image of the navigation bar button selection and to display
-// the selected page content component.
+// Pass the current page value from the state memory and pass the function that is used to update 
+// the page state. Call to the "renderPage" function to refresh the image of the navigation bar 
+// button selection and to display the selected page content component.
 return (
 <div>
 
