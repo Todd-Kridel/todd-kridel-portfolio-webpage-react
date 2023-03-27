@@ -84,7 +84,7 @@ return (
 <div>
 
   <h1>Contact Me Page</h1>
-  <p>
+  <p className="pCenter">
     ++ CONTACT ME PAGE INFORMATION ++
   </p>
 
@@ -106,11 +106,11 @@ return (
     type="text"
     placeholder="Name"
   />
-  <input
+  <input className="contactComment"
     value={comment}
     name="comment"
     //onChange={handleInputChange}
-    type="text"
+    type="textarea"
     placeholder="Comment"
   />
   <button type="button">Submit</button>  {/* onClick={handleFormSubmit} */}

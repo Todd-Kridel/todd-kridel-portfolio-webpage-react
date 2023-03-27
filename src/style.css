@@ -16,6 +16,8 @@ html, body {
   top: 0px;
   left: 0px;
   right: 0px;
+  font-family: "MS Comic Sans", Arial, Helvetica, "Lucida Sans", "Lucida Sans Regular", Geneva, Verdana, sans-serif
+
 }
 
 /*
@@ -31,7 +33,7 @@ html, body {
 .bodySectionContainer {
   height: 60vh;
   overflow: auto;
-  background-color: rgb(225, 235, 225);
+  background-color: rgb(230, 233, 230);
 }
 
 .form {
@@ -109,5 +111,13 @@ html, body {
 
 a:visited, a:link {
   color: black;
+}
+
+.contactComment {
+  resize: none;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  vertical-align: top;
 }
 
