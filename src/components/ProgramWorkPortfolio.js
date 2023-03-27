@@ -4,6 +4,10 @@ import React from "react";
 //import {useState, useEffect} from "react";
 
 
+// WHEN I am presented with the Portfolio section
+// THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+
+
 function ProgramWorkPortfolio() {
 return (
 <div>
@@ -25,6 +29,12 @@ return (
         [ More Information: Heroku internet deployment ]</a>
     </React.Fragment>
   </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel" target="_blank" rel="noreferrer">
+        [ More Information: GitHub repository README description file ]</a>
+    </React.Fragment>
+  </p>
   <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
 
   <h3 className="portfolioHeading">Social Network API</h3>
@@ -37,13 +47,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Social-Network-API" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Social-Network-API" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -56,13 +66,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: Heroku internet deployment ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -75,13 +85,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-E-Commerce-Server" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-E-Commerce-Server" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -94,13 +104,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Employee-Manager" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Employee-Manager" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -113,13 +123,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://tk-note-taker.herokuapp.com/index.html" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: Heroku internet deployment ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Note-Taker" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -132,13 +142,15 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator" 
-      target="_blank" rel="noreferrer">[ More Information ]</a>
+      target="_blank" 
+      rel="noreferrer">[ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Team-Employee-Information-Profile-Webpage-Generator" 
-      target="_blank" rel="noreferrer">[ More Information ]</a>
+      target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -152,13 +164,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-README-File-Generator" target="_blank" 
-        rel="noreferrer">[ More Information ]</a>
+        rel="noreferrer">[ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-README-File-Generator" target="_blank" 
-      rel="noreferrer">[ More Information ]</a>
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -171,13 +183,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Weather-Forecast-Tracker" target="_blank" 
-      rel="noreferrer">[ More Information ]</a>
+      rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">
     <React.Fragment>
       <a href="https://github.com/Todd-Kridel/TK-Weather-Forecast-Tracker" target="_blank" 
-      rel="noreferrer">[ More Information ]</a>
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -190,7 +202,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://alester77.github.io/Project-Camp" target="_blank" rel="noreferrer">
-        [ More Information: GitHub internet deployment ]</a>
+        [ More Information: GitHub Pages internet deployment ]</a>
+    </React.Fragment>
+  </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel/" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
   <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
@@ -204,7 +222,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Work-Day-Scheduler" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages internet deployment ]</a>
+    </React.Fragment>
+  </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel/TK-Work-Day-Scheduler" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -217,7 +241,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Coding-Quiz" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages internet deployment ]</a>
+    </React.Fragment>
+  </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel/TK-Coding-Quiz" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -231,7 +261,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/TK-Password-Generator" target="_blank" rel="noreferrer">
-        [ More Information ]</a>
+        [ More Information: GitHub Pages internet deployment ]</a>
+    </React.Fragment>
+  </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel/TK-Password-Generator" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 
@@ -244,7 +280,13 @@ return (
   <p className="pCenter">
     <React.Fragment>
       <a href="https://todd-kridel.github.io/Bootcamp_Module_1_Challenge" target="_blank" 
-      rel="noreferrer">[ More Information ]</a>
+      rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
+    </React.Fragment>
+  </p>
+  <p className="pCenter">
+    <React.Fragment>
+      <a href="https://github.com/Todd-Kridel/Bootcamp_Module_1_Challenge" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
     </React.Fragment>
   </p>
 

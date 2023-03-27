@@ -81,6 +81,7 @@ html, body {
 .portfolioHeading {
   color: white;
   background-color: purple;
+  margin-top: 50px;
   padding-bottom: 7px;
   margin-left: 15%;
   margin-right: 15%;
@@ -107,7 +108,22 @@ a:visited, a:link {
   vertical-align: top;
 }
 
+.nav-tabs {
+  background-color: gray;
+}
+
 .nav-item {
+  color: white;
+  background-color: gray;
   font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
+.nav-link {
+  color: black;
+  font-size: 1em;
+}
+
+.nav-link:hover {  /*  className = ".nav-link active" ? */
+  color: yellow;
+  font-size: 1.1em
+}

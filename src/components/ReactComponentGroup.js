@@ -6,7 +6,7 @@ import React from "react";
 
 // Import the involved components.
 import Header from "./Header.js";
-import NavigationBar from "./NavigationBar.js";
+//import NavigationBar from "./NavigationBar.js";
 import BodyPageContentContainer from "./BodyPageContentContainer.js";
 import Footer from "./Footer.js";
 

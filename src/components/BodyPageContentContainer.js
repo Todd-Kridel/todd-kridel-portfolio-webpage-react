@@ -12,6 +12,18 @@ import ContactMe from "./ContactMe.js";
 import Resume from "./Resume.js";
 
 
+// WHEN I view the navigation titles
+// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+
+
+// WHEN I click on a navigation title
+// THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+
+
+// WHEN I load the portfolio the first time
+// THEN the About Me title and section are selected by default
+
+
 function BodyPageContentContainer() {
 
 const [currentPage, setCurrentPage] = useState("About Me");
@@ -20,28 +32,28 @@ const [currentPage, setCurrentPage] = useState("About Me");
 const renderPage = () => {
 if (currentPage === "About Me") {
 return (
-<div className="bodySectionContainer">
+<div id="BodyContentContainer" className="bodySectionContainer">
   <AboutMe />
 </div>
 );
 }
 if (currentPage === "Program Work Portfolio") {
 return (
-<div className="bodySectionContainer">
+<div id="BodyContentContainer" className="bodySectionContainer">
   <ProgramWorkPortfolio />
 </div>
 );
 }
 if (currentPage === "Contact Me") {
 return (
-<div className="bodySectionContainer">
+<div id="BodyContentContainer" className="bodySectionContainer">
   <ContactMe />
 </div>
 );
 }
 if (currentPage === "Resume") {
 return (
-<div className="bodySectionContainer">
+<div id="BodyContentContainer" className="bodySectionContainer">
   <Resume />
 </div>
 );
@@ -57,9 +69,16 @@ return (
 
   <NavigationBar currentPage={currentPage} handlePageChange={handlePageChange} />
   {renderPage()}
+  {scrollPageToTop()}
 
 </div>
 );
+}
+
+
+const scrollPageToTop = () => {
+  //document.getElementById("BodyContentContainer").scroll(0, 0);
+  //document.querySelector("BodyContentContainer").scroll(0, 0);
 }
 
 
