@@ -18,8 +18,8 @@ return (
 
   <p className="pCenter">
     <React.Fragment>
-      <a href="./images/Todd Kridel's resume distribution file.txt" 
-        download="Todd Kridel's resume distribution file.txt">
+      <a href="../images/Todd Kridel's resume distribution file.txt" download>
+        {/*filename="Todd Kridel's resume distribution file.txt"*/}
         [ Download the Resume Distribution File ]</a>
     </React.Fragment>
   </p>
