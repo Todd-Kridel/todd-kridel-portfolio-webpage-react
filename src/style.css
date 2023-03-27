@@ -31,6 +31,7 @@ html, body {
 .bodySectionContainer {
   height: 60vh;
   overflow: auto;
+  background-color: rgb(225, 235, 225);
 }
 
 .form {
