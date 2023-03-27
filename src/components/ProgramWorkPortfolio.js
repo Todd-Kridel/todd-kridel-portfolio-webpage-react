@@ -126,9 +126,9 @@ return (
   <h3>README File Generator</h3>
   <p className="pCenter">Inquirer, data templates, dynamic HTML, Node, Express</p>
   <p className="pCenter">
-    <a href={require("../images/Successful_Test_of_cloning_and_running_my_Challenge_9_repository_app.jpg")} 
+    <a href={require("../images/Successful_Test_of_Challenge_9_App.jpg")} 
     target="_blank"><img id="work_image_C6" width="50%" 
-    src={require("../images/Successful_Test_of_cloning_and_running_my_Challenge_9_repository_app.jpg")} 
+    src={require("../images/Successful_Test_of_Challenge_9_App.jpg")} 
     title="a picture and a link of the README File Generator work project" /></a></p>
   <p className="pCenter">
     <React.Fragment>
