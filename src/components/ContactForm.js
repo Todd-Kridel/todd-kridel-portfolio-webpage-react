@@ -157,14 +157,14 @@ return (
     />
   </p>
   <p className="pCenter">
-    <input className = "contactComment"
-      id = "theContactFormComment" 
-      //value = {comment}
-      name = "comment"
-      onUpdate={handleInputUpdate}
-      type = "textarea"
-      placeholder = "Comment"
-    />
+  <textarea className = "contactComment"
+    id = "theContactFormComment" 
+    //value = {comment}
+    name = "comment"
+    onUpdate={handleInputUpdate}
+    type = "textarea"
+    placeholder = "Comment"
+    ></textarea>
   </p>
   <p className = "pCenter">
     <button type = "button" onClick={handleFormSubmit}>Submit</button>  {/*  */}

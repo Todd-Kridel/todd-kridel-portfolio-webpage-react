@@ -5,7 +5,7 @@ import {useState, useEffect} from "react";
 //import ContactForm from "./ContactForm.js";
 
 // a helper function that checks about if the format of an entered email address is valid
-import { validateNonEmpty, validateEmail } from "../utilities/helperFunctions";
+import { validateNonBlank, validateEmail } from "../utilities/helperFunctions";
 
 
 // WHEN I am presented with the Contact section
@@ -22,12 +22,16 @@ import { validateNonEmpty, validateEmail } from "../utilities/helperFunctions";
  
 function ContactMe() {
 
-// Create state variables for the fields in the form; setting initial values to an empty string.
+// Create state variables for the fields in the form; setting initial values to a blank string.
 
 const [email, setEmail] = useState("");
 const [userName, setUserName] = useState("");
 const [comment, setComment] = useState("");
 const [statusMessage, setStatusMessage] = useState("NONE/IDLE");
+const [userNameGoodStatus, setUserNameGoodStatus] = useState(false);
+const [emailGoodStatus, setEmailGoodStatus] = useState(false);
+const [commentGoodStatus, setCommentGoodStatus] = useState(false);
+const [submitStatus, setSubmitStatus] = useState("NOT_READY");
 let the1stUsageAttemptIsOccurring = true;
 let submitProcessingIsOccurring = false;  // to skip extra non-necessary on-update validation processing
 
@@ -36,94 +40,210 @@ let submitProcessingIsOccurring = false;  // to skip extra non-necessary on-upda
 useEffect(() => {
 if (the1stUsageAttemptIsOccurring)
   {
-  alert("Use the Contact form to send a question or a comment to me.");
-  document.getElementById("theContactFormUserName").value = "...DEFAULT VALUE...";
-  document.getElementById("theContactFormEmailAddress").value = "...DEFAULT VALUE...";
-  document.getElementById("theContactFormComment").value = "...DEFAULT VALUE...";
+  //alert("Use the Contact form to send a question or a comment to me.");
+  //document.getElementById("theContactFormUserName").value = "...DEFAULT VALUE...";
+  //document.getElementById("theContactFormEmailAddress").value = "...DEFAULT VALUE...";
+  //document.getElementById("theContactFormComment").value = "...DEFAULT VALUE...";
+  document.getElementById("statusMessageDisplayField").value = statusMessage;
+  document.getElementById("statusCodeDisplayField").value = submitStatus;
   the1stUsageAttemptIsOccurring = false;
+  }
+else 
+  {
+  document.getElementById("statusMessageDisplayField").value = statusMessage;
+  document.getElementById("statusCodeDisplayField").value = submitStatus;
+  //console.log ("EFFECT validation statuses (U, E, C): " + userNameGoodStatus + ", " + emailGoodStatus + ", " + 
+  //  commentGoodStatus);
   }
 });
 
 
-const handleInputUpdate = (e) => {
-// to get the value and name of the input that triggered the update event
+const handleInputOnChangeEvent = (e) => { 
+//alert("UPDATE PROCESSING");
+//console.log(e);
+// to get the name and the value entry of the input field that triggered the change/update event
 const {target} = e;
 const inputType = target.name;
 const inputValue = target.value;
 //
-// Validate the updated/changed input value of the update event.
-if ((!submitProcessingIsOccurring) && 
-  (!validateNonEmpty(userName) || !validateNonEmpty(email) || !validateNonEmpty(comment)))
+if (statusMessage == "Thanks about contacting me about your question or/and comment.") 
   {
-  setStatusMessage("The entered Contact information is not valid " + 
-    "(such as an empty field or a non-valid email address format).");
-  // Exit out of this function if the entered data is not valid (in whole); exit to allow for the 
-  // user to correct the information.
-  return;
+  setStatusMessage("NONE/IDLE");  // a reset for the 1st input at after a current-session submission
+  document.getElementById("theContactFormUserName").value = "";
+  document.getElementById("theContactFormEmailAddress").value = "";
+  document.getElementById("theContactFormComment").value = "";
   }
-else if (!validateEmail(email))
+//console.log("inputType: " + inputType + "; inputValue: " + inputValue);
+//
+// Based on the input type...validate the input data values and then assign the corresponding state value 
+// of the user name, email address, or comment if the value is valid; otherwise...display an error message 
+// and then assign a corresponding informative status to allow for the user to correct the information.
+//
+// a validation setStatusMessage: "The entered Contact form information is not valid (such as a blank 
+// field or a non-valid email address format)."
+//
+if (!submitProcessingIsOccurring) 
+{
+//
+if (inputType === "userName")
   {
-  setStatusMessage("The entered Contact information is not valid " + 
-    "(such as an empty field or a non-valid email address format).");
-  // Exit out of this function if the entered data is not valid (in whole); exit to allow for the 
-  // user to correct the information.
-  return;
-  }
-else 
-  {
-  // Based on the input type...set the validated state value of the user name, email address, or 
-  // comment.
-  if (inputType === "userName") 
+  if (validateNonBlank(inputValue)) 
     {
     setUserName(inputValue);
-    } 
-  else if (inputType === "email") 
+    setUserNameGoodStatus(true);
+    setStatusMessage("The entered user name information is valid.");
+    console.log("userName content validation: true good status");
+    determineOverallFieldStatus();
+    }
+    else
     {
-    setEmail(inputValue);
-    } 
-  else if (inputType == "comment")
+    // ERROR
+    setUserName("");
+    setUserNameGoodStatus(false);
+    setStatusMessage("The entered user name information is not valid; it cannot be blank.");
+    console.log("userName content validation: false good status");
+    determineOverallFieldStatus();
+    }
+  }
+else if (inputType === "email") 
+  {
+  if (validateNonBlank(inputValue)) 
+    {
+    setStatusMessage("The entered email information is valid non-blank-wise.");
+    console.log("email content validation: true good status");
+    if (validateEmail(inputValue)) 
+      {
+      setEmail(inputValue);
+      setEmailGoodStatus(true);
+      setStatusMessage("The entered email information is valid (non-blank-wise and format-wise).");
+      console.log("email format validation: true good status");
+      determineOverallFieldStatus();
+      } 
+    else 
+      {
+      // ERROR
+      setEmail("");
+      setEmailGoodStatus(false);
+      setStatusMessage("The entered email address format is not valid; missing '@', provider, or/and '.com'.");
+      console.log("email format validation: false good status");
+      determineOverallFieldStatus();
+      }
+    }
+  else 
+    {
+    // ERROR
+    setEmail("");
+    setEmailGoodStatus(false);
+    setStatusMessage("The entered email address information is not valid; it cannot be blank.");
+    console.log("email content validation: false good status");
+    determineOverallFieldStatus();
+    }
+  }
+else if (inputType === "comment") 
+  {
+  if (validateNonBlank(inputValue)) 
     {
     setComment(inputValue);
+    setCommentGoodStatus(true);
+    setStatusMessage("The entered comment information is valid.");
+    console.log("comment content validation: true good status");
+    determineOverallFieldStatus();
     }
-  setStatusMessage("The entered Contact information is valid. " + 
-    "Thanks about contacting me about your question or/and comment. " + 
-    "I will return a response message to you at as soon as possible.");
+  else 
+    {
+    // ERROR
+    setComment("");
+    setCommentGoodStatus(false);
+    setStatusMessage("The entered comment information is not valid; it cannot be blank.");
+    console.log("comment content validation: false good status");
+    determineOverallFieldStatus();
+    }
   }
-};
+} // END: if (!submitProcessingIsOccurring)
+//
+// Determine about the current overall good/ready status with regard to all 3 validation fields for usage 
+// for successful submission capability.
+function determineOverallFieldStatus() {
+//console.log ("1st validation statuses (U, E, C): " + userNameGoodStatus + ", " + emailGoodStatus + ", " + 
+//  commentGoodStatus);
+if (userNameGoodStatus && emailGoodStatus && commentGoodStatus) 
+  {
+  setSubmitStatus("GOOD_READY");
+  console.log("submitStatus: GOOD_READY");
+  //alert("submitStatus: GOOD_READY");
+  }
+else
+  {
+  setSubmitStatus("NOT_READY");
+  console.log("submitStatus: NOT_READY");
+  //alert("submitStatus: NOT_READY");
+  }
+document.getElementById("statusCodeDisplayField").value = submitStatus;
+//console.log ("2nd validation statuses (U, E, C): " + userNameGoodStatus + ", " + emailGoodStatus + ", " + 
+//  commentGoodStatus);
+}
+} // END: handleInputOnChangeEvent  
+
+
+function handleInputOnBlurEvent(e) {
+// to get the name and the value entry of the input field that triggered the change/update event
+const {target} = e;
+const inputType = target.name;
+const inputValue = target.value;
+if (inputValue.trim() == "") 
+  {
+  document.getElementById("statusMessageDisplayField").value = 
+    ">>>> FYI: The just-exited entry field (" + inputType + ") requires an entry value for a submission. <<<<";
+  }
+}  // END: handleInputOnBlurEvent
 
 
 const handleFormSubmit = (e) => {
+//alert("SUBMIT PROCESSING");
+//
 // to prevent the default behavior of the form submit (which is to refresh the page)
 e.preventDefault();
 // Check about if the format of the entered user name or email address or comment is value...
-// i.e,. non-empty and of the correct format (if applicable; such as for email address). If the 
+// i.e,. non-blank and of the correct format (if applicable; such as for email address). If the 
 // entered information is valid...then submit the information for Contact process; otherwise 
 // display an error message.
-if (!validateNonEmpty(userName) || !validateNonEmpty(email) || !validateNonEmpty(comment)) 
+console.log(statusMessage);
+//
+document.getElementById("theContactFormUserName").value = 
+  (document.getElementById("theContactFormUserName").value).trim();
+document.getElementById("theContactFormEmailAddress").value = 
+  document.getElementById("theContactFormEmailAddress").value.trim();
+document.getElementById("theContactFormComment").value = 
+  document.getElementById("theContactFormComment").value.trim();
+//
+if ((submitStatus == "GOOD_READY") || (userNameGoodStatus && emailGoodStatus && commentGoodStatus))
   {
-  setStatusMessage("The entered Contact information is not valid " + 
-    "(such as an empty field or a non-valid email address format).");
+  submitProcessingIsOccurring = true;  // to skip extra non-necessary on-update validation processing
+  let submissionMessageToTodd = {"from": userName, "emailAddress": email, "comment": comment};
+  alert("SUBMISSION INFORMATION FOR SENDING: " + "\n\n" + JSON.stringify(submissionMessageToTodd));
+  // If the form input information is valid...then clear the input fields and the state variable 
+  // values.
+  document.getElementById("theContactFormUserName").value = ">> SUBMITTED <<";
+  document.getElementById("theContactFormEmailAddress").value = ">> SUBMITTED <<";
+  document.getElementById("theContactFormComment").value = ">> SUBMITTED <<";
+  setUserName("");
+  setEmail("");
+  setComment("");
+  setStatusMessage("Thanks about contacting me about your question or/and comment.");
+  the1stUsageAttemptIsOccurring = true;
+  setUserNameGoodStatus(false);
+  setEmailGoodStatus(false);
+  setCommentGoodStatus(false);
+  setSubmitStatus("NOT_READY");
+  document.getElementById("statusCodeDisplayField").value = "NOT_READY";
+  }
+else
+  {
+  setStatusMessage("Enter/Correct all of the field information in the form.");
   // Exit out of this function if the entered data is not valid (in whole); exit to allow for the 
   // user to correct the information.
   return;
   }
-else 
-  {
-  submitProcessingIsOccurring = true;  // to skip extra non-necessary on-update validation processing
-  let submissionMessageToTodd = {"from": {userName}, "emailAddress": {email}, "comment": {comment}};
-  alert(JSON.stringify(submissionMessageToTodd));
-  // If the form input information is valid...then clear the input fields and the state variable 
-  // values.
-  document.getElementById("userName").value = "";
-  document.getElementById("email").value = "";
-  document.getElementById("comment").value = "";
-  setUserName("");
-  setEmail("");
-  setComment("");
-  setStatusMessage("GOOD");
-  the1stUsageAttemptIsOccurring = true;
-  };
-  return;
 }
 
 
@@ -131,7 +251,13 @@ return (
 <div>
 
   <h1>Contact Me Page</h1>
+
+  <br/>
+
   <p className = "pCenter">
+    Use the Contact form at below to send a question or/and a comment to me. I will return a response 
+    message to you at as soon as possible.<br/>
+    <br/>
     ++ CONTACT ME PAGE INFORMATION ++
   </p>
 
@@ -139,49 +265,61 @@ return (
   {/* <ContactForm />  // an alternate approach attempt per a separated component file */}
   {/* ... instead below ... */}
 
-  <form className = "theContactForm">
-  <p className = "pCenter">From:</p>
-  <br/>
-  <p className = "pCenter">Name:&nbsp;&nbsp;
-    <input
-      id = "theContactFormUserName" 
-      //value = {userName}
-      name = "userName"
-      onUpdate={handleInputUpdate}
+  <form className="theContactForm">
+  <p className="pCenter"><span style={{textDecoration: "underline"}}>From:</span></p>
+
+  <p className="pCenter">
+    <label for="theContactFormUserName">Name:</label>&nbsp;&nbsp;<input
+      id="theContactFormUserName" 
+      class="contactFormInputField"
+      //value=
+      name="userName"
+      onChange={handleInputOnChangeEvent}
+      onBlur={handleInputOnBlurEvent}
       type = "text"
-      placeholder = "Name"
+      placeholder="(at least a first/alias name)"
     />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Email Address:&nbsp;&nbsp;
-    <input
-      id = "theContactFormEmailAddress" 
-      //value = {email}
-      name = "email"
-      onUpdate={handleInputUpdate}
-      type = "email"
-      placeholder = "Email Address"
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <label for="theContactFormEmailAddress">Email&nbsp;Address:</label>&nbsp;&nbsp;<input
+      id="theContactFormEmailAddress" 
+      class="contactFormInputField"
+      //value=
+      name="email"
+      onChange={handleInputOnChangeEvent}
+      onBlur={handleInputOnBlurEvent}
+      type="email"
+      placeholder="example: 'user@email.com'"
     />
+  </p>
+  <p className="pCenter">Comment:<br/>
+    <textarea className="contactComment"
+      id="theContactFormComment" 
+      //value=
+      name="comment"
+      onChange={handleInputOnChangeEvent}
+      onBlur={handleInputOnBlurEvent}
+      type="textarea"
+      placeholder="(required field; at least 1 character (preferably at least 1 word))"
+    ></textarea>
   </p>
   <p className="pCenter">
-    <input className = "contactComment"
-      id = "theContactFormComment" 
-      //value = {comment}
-      name = "comment"
-      onUpdate={handleInputUpdate}
-      type = "textarea"
-      placeholder = "Comment"
-    />
-  </p>
-  <p className = "pCenter">
-    <button type = "button" onClick={handleFormSubmit}>Submit</button>  {/*  */}
+    <button type="button" onClick={handleFormSubmit} 
+      style={{border: "10px double purple", borderRadius: "5px", padding: "5px", fontSize: "20px"}}>
+      &nbsp;&nbsp;&nbsp;&nbsp; Submit &nbsp;&nbsp;&nbsp;&nbsp;
+    </button>
   </p>
   </form>
-  <p className = "pCenter">Status: 
-    {statusMessage && (
-      <p className = "error-text">{statusMessage}</p>
-    )}
+  <p className = "pCenter">Current-Operation Status Message:<br/>
+    <input id="statusMessageDisplayField" className="contactFormStatusText" readonly="true" 
+      style={{width: "90%"}}>
+    </input>
+  </p>
+  <p className = "pCenter">Overall Status Code:<br/>
+    <input id="statusCodeDisplayField" className="contactFormStatusCode" readonly="true" 
+      style={{width: "150px", textAlign: "center"}}>
+    </input>
   </p>
 
-  <br/>
   <br/>
 
 </div>

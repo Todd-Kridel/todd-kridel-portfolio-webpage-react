@@ -11,22 +11,9 @@
 // }
 
 
-function checkPassword(inputValue) {
-const passwordProcessing = /^[A-Za-z]\w{7,14}$/;
-if (inputValue.match(passwordProcessing)) 
-  {
-  return true;
-  }
-else 
-  {
-  return false;
-  }
-}
-
-
-function validateNonEmpty(inputValue) {
-alert("validateNonEmpty processing");
-if ((inputValue.trim() != "") && (inputValue.trim() != "...DEFAULT VALUE..."))
+function validateNonBlank(inputValue) {
+//alert("validateNonBlank processing");
+if (inputValue.trim() != "") // && (inputValue.trim() != "...DEFAULT VALUE..."))
   {
   return 1;
   }
@@ -38,11 +25,11 @@ else
 
 
 function validateEmail(email) {
-alert("validateEmail processing");
-const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-return re.test(String(email).toLowerCase());
+//alert("validateEmail processing");
+const emailFormatRegularExpression = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+return emailFormatRegularExpression.test(String(email).toLowerCase());
 }
     
 
-module.exports = {validateNonEmpty, validateEmail};
+module.exports = {validateNonBlank, validateEmail};
 

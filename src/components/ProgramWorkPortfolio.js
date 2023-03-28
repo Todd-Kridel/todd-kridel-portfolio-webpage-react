@@ -13,6 +13,8 @@ return (
 <div>
 
   <h1>Program Work Portfolio Page</h1>
+
+  <br/>
   <p className="pCenter">
     ++ PROGRAM WORK PORTFOLIO PAGE INFORMATION ++
   </p>
@@ -25,16 +27,16 @@ return (
     title="a picture of the 'Sweet Solution' 2nd team project" /></a></p>
   <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://sweet-solution.herokuapp.com" target="_blank" rel="noreferrer">
         [ More Information: Heroku internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/EarlofSmith/sweet-solution" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Social Network API</h3>
@@ -45,16 +47,16 @@ return (
     title="a picture and a link of the Social Network API Application work project" target="_blank" 
     rel="noreferrer"/></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Social-Network-API" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Social-Network-API" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Blog CMS Application</h3>
@@ -64,16 +66,16 @@ return (
     src={require("../images/Challenge_14_mockup_0.jpg")} 
     title="a picture and a link of the Blog CMS Database Application work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages demo pictures and Heroku internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">E-Commerce Server</h3>
@@ -83,16 +85,16 @@ return (
     src={require("../images/Challenge_13_Mockup.jpg")} 
     title="a picture and a link of the E-Commerce Server work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-E-Commerce-Server" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-E-Commerce-Server" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Employee Database Manager</h3>
@@ -102,16 +104,16 @@ return (
     src={require("../images/TK-EMPLOYEE-MANAGER.jpg")} 
     title="a picture and a link of the Employee Database Manager work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Employee-Manager" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Employee-Manager" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Note Taker Application</h3>
@@ -121,16 +123,16 @@ return (
     src={require("../images/Module_11_Mockup+.jpg")} 
     title="a picture and a link of the Note Taker application work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://tk-note-taker.herokuapp.com/index.html" target="_blank" rel="noreferrer">
         [ More Information: Heroku internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Note-Taker" target="_blank" rel="noreferrer">
         [ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Employee Record Display System</h3>
@@ -140,18 +142,18 @@ return (
     src={require("../images/Challenge_10_demo.jpg")} 
     title="a picture and a link of the Employee Record Display System work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator" 
       target="_blank" 
       rel="noreferrer">[ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Team-Employee-Information-Profile-Webpage-Generator" 
       target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">README File Generator</h3>
@@ -162,16 +164,16 @@ return (
     src={require("../images/Successful_Test_of_Challenge_9_App.jpg")} 
     title="a picture and a link of the README File Generator work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-README-File-Generator" target="_blank" 
         rel="noreferrer">[ More Information: GitHub Pages demo pictures/videos and extra description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-README-File-Generator" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Weather Forecast Application</h3>
@@ -181,16 +183,16 @@ return (
     src={require("../images/TK-Weather-Forecast-Tracker+.jpg")} 
     title="a picture and a link of the Weather Forecast Application work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Weather-Forecast-Tracker" target="_blank" 
       rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Weather-Forecast-Tracker" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Campsite Finder</h3>
@@ -201,16 +203,16 @@ return (
     title="a picture of the 'Project Camp' 1st team project" /></a></p>
   <p className="pCenter">++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://alester77.github.io/Project-Camp" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/alester77/Project-Camp" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Workday Time Scheduler </h3>
@@ -220,16 +222,16 @@ return (
     src={require("../images/Module 5 Mockup.jpg")} 
     title="a picture of the Time Scheduler work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Work-Day-Scheduler" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Work-Day-Scheduler" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Quiz Game</h3>
@@ -239,16 +241,16 @@ return (
     src={require("../images/Module 4 Mockup.jpg")} 
     title="a picture of the Quiz Game work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Coding-Quiz" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Coding-Quiz" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Password Generator</h3>
@@ -259,16 +261,16 @@ return (
     title="a picture of the Password Generator work project" />
     </a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/TK-Password-Generator" target="_blank" rel="noreferrer">
         [ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/TK-Password-Generator" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <h3 className="portfolioHeading">Company Website</h3>
@@ -278,16 +280,16 @@ return (
     src={require("../images/Horiseon-Company-Website-Refactory.jpg")} 
     title="a picture and a link of the Horiseon Company Website work project" /></a></p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://todd-kridel.github.io/Bootcamp_Module_1_Challenge" target="_blank" 
       rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
   <p className="pCenter">
-    <React.Fragment>
+    {/* <React.Fragment> */}
       <a href="https://github.com/Todd-Kridel/Bootcamp_Module_1_Challenge" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
-    </React.Fragment>
+    {/* </React.Fragment> */}
   </p>
 
   <br/>

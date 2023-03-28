@@ -12,8 +12,11 @@ return (
 <div>
 
   <h1>About Me Page</h1>
+
   <br/>
   <p className = "pCenter"><img src={require("../images/Todd_--.jpg")}></img></p>
+
+  <br/>
   <p className = "pCenter">
     ++ ABOUT ME PAGE INFORMATION ++
   </p>
