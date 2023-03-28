@@ -19,7 +19,7 @@ function NavigationBar({currentPage, handlePageChange}) {
 return (
 <div>
 
-  <ul className="nav nav-tabs">
+  <ul className="nav nav-tabs" style={{justifyContent: "center"}}>
     <li className="nav-item">
       <a href="#aboutMe"
       onClick={() => handlePageChange("About Me")}
