@@ -12,15 +12,17 @@ import ContactMe from "./ContactMe.js";
 import Resume from "./Resume.js";
 
 
-// WHEN I view the navigation titles
-// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+// WHEN I view the navigation titles...
+// THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding 
+// to the current section is highlighted.
 
 
-// WHEN I click on a navigation title
-// THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+// WHEN I click on a navigation title...
+// THEN I am presented with the corresponding section below the navigation without the page reloading and 
+// that title is highlighted.
 
 
-// WHEN I load the portfolio the first time
+// WHEN I load the portfolio the first time...
 // THEN the About Me title and section are selected by default
 
 
@@ -35,7 +37,7 @@ function BodyPageContentContainer() {
 const [currentPage, setCurrentPage] = useState("About Me");
 
 // When a new page content section is rendered at after being selected by tab click...then scroll 
-// that container view of that new content to the top (for in case that a previous tab has already 
+// that container view of that new content to the top...for in case that a previous tab has already 
 // been viewed/scrolled to a lower section of the contain view space.
 useEffect(() => {
 document.getElementById("BodyContentContainer").scroll(0, 0);
@@ -73,6 +75,7 @@ return (
 );
 }
 };
+
 
 const handlePageChange = (page) => {
 setCurrentPage(page);

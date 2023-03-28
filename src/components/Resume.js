@@ -5,8 +5,8 @@ import React from "react";
 import resumeFile from "../Todd_Kridel_resume_distribution_file.pdf";
 
 
-// WHEN I am presented with the Resume section
-// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+// WHEN I am presented with the Resume section...
+// THEN I see a link to a downloadable resume and a list of the developer’s proficiencies.
 
 
 function Resume() {
@@ -21,7 +21,7 @@ return (
   <br/>
 
   <p className="pCenter">
-    <a href={resumeFile} download>[ Download/Copy the Entire Main Resume Distribution File ]</a><br/>
+    <a href={resumeFile} download>[ Download the Entire Main Resume Distribution File ]</a><br/>
       {/* target="_blank" rel="noreferrer" */}
     (From the GitHub Repository)
   </p>
