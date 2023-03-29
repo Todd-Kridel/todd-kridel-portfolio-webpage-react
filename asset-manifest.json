@@ -1,14 +1,16 @@
 {
   "files": {
     "main.css": "/todd-kridel-portfolio-webpage-react/static/css/main.c4abfc6e.css",
-    "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.82af87ec.js",
+    "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.3f8d2e38.js",
     "static/media/Project 1 -- Project Camp.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Project 1 -- Project Camp.28e42c3e9715fe3e1520.jpg",
     "static/media/Challenge_14_mockup_0.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge_14_mockup_0.2d76b31d945c39f23c3e.jpg",
     "static/media/Project 2 Sweet Solution Demo.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Project 2 Sweet Solution Demo.6dc26eb95c06842c0fa1.jpg",
     "static/media/TK-Weather-Forecast-Tracker+.jpg": "/todd-kridel-portfolio-webpage-react/static/media/TK-Weather-Forecast-Tracker+.528d0c8aaa60a22e5bae.jpg",
+    "static/media/Challenge_20_Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge_20_Mockup.047c2613698282b9818b.jpg",
     "static/media/Challenge_13_Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge_13_Mockup.337a9833672fdd2e6e00.jpg",
     "static/media/Challenge 18 Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge 18 Mockup.773d65d3b5870800c844.jpg",
     "static/media/Successful_Test_of_Challenge_9_App.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Successful_Test_of_Challenge_9_App.b540b684e52b03d4ef8b.jpg",
+    "static/media/Personal_Portfolio_appearance.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Personal_Portfolio_appearance.13f993a23d1057dc6597.jpg",
     "static/media/Challenge_10_demo.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Challenge_10_demo.fe428529d6414a83cde9.jpg",
     "static/media/main_background_art.jpg": "/todd-kridel-portfolio-webpage-react/static/media/main_background_art.f25c7b0c0d4dfa35bdc8.jpg",
     "static/media/Horiseon-Company-Website-Refactory.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Horiseon-Company-Website-Refactory.7239f3c7968568d003a8.jpg",
@@ -20,10 +22,10 @@
     "static/media/Module 5 Mockup.jpg": "/todd-kridel-portfolio-webpage-react/static/media/Module 5 Mockup.9074a2f464f1e414cff7.jpg",
     "index.html": "/todd-kridel-portfolio-webpage-react/index.html",
     "main.c4abfc6e.css.map": "/todd-kridel-portfolio-webpage-react/static/css/main.c4abfc6e.css.map",
-    "main.82af87ec.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.82af87ec.js.map"
+    "main.3f8d2e38.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.3f8d2e38.js.map"
   },
   "entrypoints": [
     "static/css/main.c4abfc6e.css",
-    "static/js/main.82af87ec.js"
+    "static/js/main.3f8d2e38.js"
   ]
 }
