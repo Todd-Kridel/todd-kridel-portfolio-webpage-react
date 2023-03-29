@@ -19,7 +19,26 @@ return (
   <p className="pCenter">
     ++ PROGRAM WORK PORTFOLIO PAGE INFORMATION ++
   </p>
-  
+
+  <h3 className="portfolioHeading">React JSX Personal Work Portfolio Website</h3>
+  <p className="pCenter">React Components, JSX-Java, HTML/CSS, Bootstrap CSS style effects, GH-Pages, Validation</p>
+  <p className="pCenter"><a href={require("../images/Challenge_20_Mockup.jpg")} 
+    target="_blank" rel="noreferrer"><img id="work_image_HCP" width="50%" 
+    src={require("../images/Challenge_20_Mockup.jpg")} 
+    title="a picture and a link of the HTML/CSS (Non-React) Personal Work Portfolio Website work project" /></a></p>
+  <p className="pCenter">
+    {/* <React.Fragment> */}
+      <a href="https://todd-kridel.github.io/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
+    {/* </React.Fragment> */}
+  </p>
+  <p className="pCenter">
+    {/* <React.Fragment> */}
+      <a href="https://github.com/Todd-Kridel/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
+    {/* </React.Fragment> */}
+  </p>
+
   <h3 className="portfolioHeading">Online Bakery Store</h3>
   <p className="pCenter">team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics</p>
   <p className="pCenter"><a href={require("../images/Project 2 Sweet Solution Demo.jpg")} target="_blank" 
@@ -274,6 +293,25 @@ return (
     {/* </React.Fragment> */}
   </p>
 
+  <h3 className="portfolioHeading">HTML/CSS Personal Work Portfolio Website</h3>
+  <p className="pCenter">HTML/CSS screen layouts, CSS style effects and classes</p>
+  <p className="pCenter"><a href={require("../images/Personal_Portfolio_appearance.jpg")} 
+    target="_blank" rel="noreferrer"><img id="work_image_HCP" width="50%" 
+    src={require("../images/Personal_Portfolio_appearance.jpg")} 
+    title="a picture and a link of the HTML/CSS (Non-React) Personal Work Portfolio Website work project" /></a></p>
+  <p className="pCenter">
+    {/* <React.Fragment> */}
+      <a href="https://todd-kridel.github.io/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
+    {/* </React.Fragment> */}
+  </p>
+  <p className="pCenter">
+    {/* <React.Fragment> */}
+      <a href="https://github.com/Todd-Kridel/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+      rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
+    {/* </React.Fragment> */}
+  </p>
+  
   <h3 className="portfolioHeading">Company Website</h3>
   <p className="pCenter">code refinements/refactor, HTML/CSS screen layouts, CSS style effects and classes</p>
   <p className="pCenter"><a href={require("../images/Horiseon-Company-Website-Refactory.jpg")} 
