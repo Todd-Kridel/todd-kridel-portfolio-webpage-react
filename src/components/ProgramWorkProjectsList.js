@@ -40,11 +40,11 @@ return (
     src={require("../images/Challenge_20_Mockup.jpg")} 
     title="a picture and a link of the HTML/CSS (Non-React) Personal Work Portfolio Website work project" /></a></p>
   <p className="pCenter">
-    <a href="https://todd-kridel.github.io/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+    <a href="https://todd-kridel.github.io/todd-kridel-portfolio-webpage-react" target="_blank" 
       rel="noreferrer">[ More Information: GitHub Pages internet deployment ]</a>
   </p>
   <p className="pCenter">
-    <a href="https://github.com/Todd-Kridel/Todd-Kridel-Portfolio-Webpage" target="_blank" 
+    <a href="https://github.com/Todd-Kridel/todd-kridel-portfolio-webpage-react" target="_blank" 
       rel="noreferrer">[ More Information: GitHub repository README description file ]</a>
   </p>
 </div>
