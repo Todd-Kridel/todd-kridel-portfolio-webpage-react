@@ -45,7 +45,7 @@ html, body {
 
 .header h1, .footer h1, .footer h4 {
   margin-top: 5px;
-  margin-bottom: 0px;
+  margin-bottom: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
   text-align: center;
@@ -82,6 +82,15 @@ html, body {
   padding-bottom: 7px;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+.portfolioImg {
+  border: 10px double rgb(245, 235, 225);
+  border-radius: 5px;
+}
+.portfolioImg:hover {
+  border: 10px double #f9b713;
+  border-radius: 5px;
 }
 
 .pCenter {
