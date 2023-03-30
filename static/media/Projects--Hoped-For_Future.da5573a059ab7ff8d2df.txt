@@ -1,41 +1,62 @@
 
 
-================================================================
+================================
 Todd Kridel's Hoped-For Future Computer Programming Projects
-================================================================
+================================
 
 
 1. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
+================================
+
+
 2. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
+
+
+================================
 
 
 3. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
+================================
+
+
 4. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
+
+
+================================
 
 
 5. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
+================================
+
+
 6. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
+
+
+================================
 
 
 7. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
+================================
+
+
 8. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================================================
+================================
 
