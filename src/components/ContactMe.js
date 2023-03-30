@@ -302,23 +302,23 @@ return (
       placeholder="(required field; at least 1 character (preferably at least 1 word))"
     ></textarea>
   </p>
+  <p className = "pCenter">Current-Operation Status Message:<br/>
+    <input id="statusMessageDisplayField" className="contactFormStatusText" readonly="true" 
+      style={{width: "90%"}}>
+    </input>
+  </p>
   <p className="pCenter">
     <button type="button" onClick={handleFormSubmit} 
       style={{border: "10px double purple", borderRadius: "5px", padding: "5px", fontSize: "20px"}}>
       &nbsp;&nbsp;&nbsp;&nbsp; Submit &nbsp;&nbsp;&nbsp;&nbsp;
     </button>
   </p>
-  </form>
-  <p className = "pCenter">Current-Operation Status Message:<br/>
-    <input id="statusMessageDisplayField" className="contactFormStatusText" readonly="true" 
-      style={{width: "90%"}}>
-    </input>
-  </p>
   <p className = "pCenter">Overall Status Code:<br/>
     <input id="statusCodeDisplayField" className="contactFormStatusCode" readonly="true" 
       style={{width: "150px", textAlign: "center"}}>
     </input>
   </p>
+  </form>
 
   <br/>
 

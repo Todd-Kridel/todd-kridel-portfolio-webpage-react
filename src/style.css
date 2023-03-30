@@ -35,24 +35,6 @@ html, body {
   font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
-.form {
-  margin: 20px;
-  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
-}
-
-.form input {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 100%;
-  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
-}
-
-.contactFormInputField {
-  margin-top: 5px;
-  margin-bottom: 5px;
-}
-
 .header, .footer {
   height: 100px;
   padding-top: 25px;
@@ -125,9 +107,20 @@ a:visited, a:link {
   border-color: orange;
 }
 
+.contactFormInputField {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#statusMessageDisplayField, #statusCodeDisplayField {
+  background-color: rgb(245, 235, 225);
+  border: none;
+}  
+
 .contactFormStatusText {
   text-align: center;
   font-style: italic;
+  font-weight: bold;
 }
 
 button:active {
