@@ -20,9 +20,15 @@ The React refactoring task was a significant and very-challenging learning exper
 
 The assignment also involved learning a new website deployment/publishing method that is the npm/node-based "gh-pages" module that functions with/through the GitHub Pages feature that is for React-based website systems. That system seems to be easier and more-efficient for the deployment and sharing of small-scale websites than the procedures that are involved with a Heroku deployment; but the Heroku system and its complexities might allow for the deploying/support of larger-scale more-complex websites.
 
-[ User Story and Acceptance Criteria ]
-
 The objectives -- user story and acceptance criteria items -- of the assignment were as follows:
+
+[ User Story ]
+
+AS AN employer looking for candidates with experience building single-page applications...
+I WANT to view a potential employee's deployed React portfolio of work samples...
+SO THAT I can assess whether they're a good candidate for an open position.
+
+[ Acceptance Criteria ]
 
 GIVEN a single-page application portfolio for a web developer
 
