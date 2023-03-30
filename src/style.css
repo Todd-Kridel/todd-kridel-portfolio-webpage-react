@@ -29,7 +29,7 @@ html, body {
 
 .bodySectionContainer {
   padding: 10px;
-  height: 69vh;
+  height: 65vh;
   overflow: auto;
   background-color: rgb(245, 235, 225);
   font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
