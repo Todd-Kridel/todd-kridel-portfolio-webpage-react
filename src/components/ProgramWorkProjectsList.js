@@ -6,6 +6,7 @@ import React from "react";
 function ProgramWorkProjectsList() {
 return (
 <div>
+  <Project__ToBeCompletedProjects />
   <Project__ReactPersonalWorkPortfolio />
   <Project__SocialNetworkAPI />
   <Project__BlogCMSApplication />
@@ -27,12 +28,51 @@ return (
 }
 
 
+///////////////// BEGIN: Additional Project Information /////////////////
+
+
+function Project__ToBeCompletedProjects() {
+  return (
+  <div>
+    <br/>
+    <h2 className="portfolioSection">To-Be-Completed Projects</h2>
+    <br/>
+    <p class="pCenter">
+      In-Progress Current Projects, Planned Upcoming Projects, and Hoped-For Future Projects
+    </p>
+    <p className="pCenter">
+      <a href={require("../Projects--In-Progress_Current.txt")} 
+      target="_blank" rel="noreferrer"><img id="work_image_In-Progress" width="25%" 
+      src={require("../images/additional_project_detail--In-Progress.png")} 
+      title="a picture representation of current in-progress work projects" /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={require("../Projects--Planned_Upcoming.txt")} 
+        target="_blank" rel="noreferrer"><img id="work_image_Planned" width="25%" 
+        src={require("../images/additional_project_detail--Planned.jpg")} 
+        title="a picture representation of upcoming planned work projects" /></a>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <a href={require("../Projects--Hoped-For_Future.txt")} 
+          target="_blank" rel="noreferrer"><img id="work_image_Hoped-For" width="25%" 
+          src={require("../images/additional_project_detail--Hoped-For.jpg")} 
+          title="a picture representation of future hoped-for work projects" /></a>
+    </p>
+    <p className="pCenter">(Click on an image for more information.)</p>
+  </div>
+  );
+  }
+
+
+///////////////// END: Additional Project Information /////////////////
+
+
 ///////////////// BEGIN: Project List Item Description Sections /////////////////
 
 
 function Project__ReactPersonalWorkPortfolio() {
 return (
 <div>
+  <h2 className="portfolioSection">Completed Projects</h2>
+  
   <h3 className="portfolioHeading">React JSX Personal Work Portfolio Website</h3>
   <p className="pCenter">React Components, JSX-Java, HTML/CSS, Bootstrap CSS style effects, GH-Pages, Validation</p>
   <p className="pCenter"><a href={require("../images/Challenge_20_Mockup.jpg")} 

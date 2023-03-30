@@ -84,6 +84,15 @@ html, body {
   font-size: 15px;
 }
 
+.portfolioSection {
+  color: white;
+  background-color: rgb(97, 65, 43);
+  margin-top: 50px;
+  padding-bottom: 7px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .portfolioHeading {
   color: white;
   background-color: purple;
