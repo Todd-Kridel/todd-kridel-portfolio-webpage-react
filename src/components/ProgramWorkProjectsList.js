@@ -42,9 +42,9 @@ function Project__ToBeCompletedProjects() {
     </p>
     <p className="pCenter">
       <a href={require("../Projects--In-Progress_Current.txt")} 
-      target="_blank" rel="noreferrer"><img id="work_image_In-Progress" width="25%" 
-      src={require("../images/additional_project_detail--In-Progress.png")} 
-      title="a picture representation of current in-progress work projects" /></a>
+        target="_blank" rel="noreferrer"><img id="work_image_In-Progress" width="25%" 
+        src={require("../images/additional_project_detail--In-Progress.png")} 
+        title="a picture representation of current in-progress work projects" /></a>
       &nbsp;&nbsp;&nbsp;&nbsp;
       <a href={require("../Projects--Planned_Upcoming.txt")} 
         target="_blank" rel="noreferrer"><img id="work_image_Planned" width="25%" 
@@ -52,9 +52,9 @@ function Project__ToBeCompletedProjects() {
         title="a picture representation of upcoming planned work projects" /></a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
       <a href={require("../Projects--Hoped-For_Future.txt")} 
-          target="_blank" rel="noreferrer"><img id="work_image_Hoped-For" width="25%" 
-          src={require("../images/additional_project_detail--Hoped-For.jpg")} 
-          title="a picture representation of future hoped-for work projects" /></a>
+        target="_blank" rel="noreferrer"><img id="work_image_Hoped-For" width="25%" 
+        src={require("../images/additional_project_detail--Hoped-For.jpg")} 
+        title="a picture representation of future hoped-for work projects" /></a>
     </p>
     <p className="pCenter">(Click on an image for more information.)</p>
   </div>
