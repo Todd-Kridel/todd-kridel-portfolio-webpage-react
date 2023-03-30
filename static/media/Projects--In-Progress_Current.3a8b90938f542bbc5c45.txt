@@ -1,8 +1,8 @@
 
 
-================================
+========================================
 Todd Kridel's In-Progress Current Computer Programming Projects
-================================
+========================================
 
 
 Module 21 Challenge
@@ -247,54 +247,54 @@ The URL of the functional, deployed application.
 The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
 
-================================
+========================================
 
 
 2. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 3. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 4. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 5. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 6. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 7. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 8. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 

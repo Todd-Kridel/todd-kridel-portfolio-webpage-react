@@ -1,8 +1,8 @@
 
 
-================================
+========================================
 Todd Kridel's Planned Upcoming Computer Programming Projects
-================================
+========================================
 
 
 1. Bootcamp Course Final Project (a solo project because of special circumstance of being behind in progress)
@@ -72,54 +72,54 @@ Bonus 10 points
 Application solves an immediate problem in any team member's job
 
 
-================================
+========================================
 
 
 2. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 3. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 4. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 5. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 6. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 7. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
 
 8. TBD Project
 ++ PROJECT DESCRIPTION TEXT ++
 
 
-================================
+========================================
 
