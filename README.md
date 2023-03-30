@@ -1,9 +1,6 @@
 
 
-
-
-
-# TK Blog CMS Application
+# Todd Kridel's Personal Portfolio of Programming Work Webpage
 
 
 ## Table of Contents
@@ -17,13 +14,14 @@
 
 ## Description
 
-This current Module 20 Challenge assignment -- a "React-Based Personal Work Portfolio" -- is a full-stack responsive user-interactive application that allows for a group of application users to be able to view and add and update and respond to blog messages and comments about various topics. The application has a limited set of functionality that is available for/to anonymous users that are only browsing and do not have an official user account; and the application has a larger set of functionality that is available for/to official registered users that have established user accounts and passwords and log-on to the application.
+This current Module 20 Challenge assignment -- a "Programming Work Personal Online Portfolio" -- is a full-feature responsive React-based JSX/JavaScript component refactoring of the [standard HTML/CSS-based personal portfolio website](https://todd-kridel.github.io/Todd-Kridel-Portfolio-Webpage) that was created for Module 2 at the beginning of the bootcamp course and then updated periodically throughout the progression of the bootcamp learning. The portfolio website currently provides/demonstrates only a framework of system structure for the displaying and sharing of personal work information...through an "About Me" personal-details page and a "Work Project List" description page and a "Contact Me" page/form and a "Resume" page...which are accessed through various menus and pages and page elements/functions/features. Most of the website currently contains only template/filler text...but the "Work Project List" page actually does currently contain a complete list of items (pictures and links) that show all of the programming projects that I did during my DU Full-Stack Coding Bootcamp course.
+
+The React refactoring task was a significant and very-challenging learning experience...regarding topics of modular component design and encapsulation for dynamic re-usable effects and functionality; and for validation processes, and for the integration/blending of dynamic HTML/CSS templating and JSX/JavaScript functionality for the enhanced user-interactive application. The concepts were quite different from (almost opposite to) the concepts/methods of website production that have been accustomed to up until this point; a good learning experience even if the topics were confusing and or if not fully understood or if not really fully perceived as being usable/practical/logical. The new React concepts and techniques seem to be complex and redundant or involving extra work/steps...but probably those extra steps in the beginning help to avoid repetition and extra steps and longer/complicated maintenance in the future.
+
+The assignment also involved learning a new website deployment/publishing method that is the npm/node-based "gh-pages" module that functions with/through the GitHub Pages feature that is for React-based website systems. That system seems to be easier and more-efficient for the deployment and sharing of small-scale websites than the procedures that are involved with a Heroku deployment; but the Heroku system and its complexities might allow for the deploying/support of larger-scale more-complex websites.
 
 The objectives -- user story and acceptance criteria items -- of the assignment were as follows:
 
-[ User Story ]
-
-Acceptance Criteria
 GIVEN a single-page application portfolio for a web developer
 
 WHEN I load the portfolio...
@@ -33,91 +31,123 @@ WHEN I view the header...
 THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio.
 
 WHEN I view the navigation titles...
-THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
-WHEN I click on a navigation title
-THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
-WHEN I load the portfolio the first time
-THEN the About Me title and section are selected by default
-WHEN I am presented with the About Me section
-THEN I see a recent photo or avatar of the developer and a short bio about them
-WHEN I am presented with the Portfolio section
-THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
-WHEN I am presented with the Contact section
-THEN I see a contact form with fields for a name, an email address, and a message
-WHEN I move my cursor out of one of the form fields without entering text
-THEN I receive a notification that this field is required
-WHEN I enter text into the email address field
-THEN I receive a notification if I have entered an invalid email address
-WHEN I am presented with the Resume section
-THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
-WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted.
 
-* A single Header component that appears on multiple pages
+WHEN I click on a navigation title...
+THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted.
 
-* A single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
+WHEN I load the portfolio the first time...
+THEN the About Me title and section are selected by default.
 
-* A single Project component that will be used multiple times in the Portfolio section
+WHEN I am presented with the About Me section...
+THEN I see a recent photo or avatar of the developer and a short bio about them.
 
+WHEN I am presented with the Portfolio section...
+THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository.
+
+WHEN I am presented with the Contact section...
+THEN I see a contact form with fields for a name, an email address, and a message.
+
+WHEN I move my cursor out of one of the form fields without entering text...
+THEN I receive a notification that this field is required.
+
+WHEN I enter text into the email address field...
+THEN I receive a notification if I have entered an invalid email address.
+
+WHEN I am presented with the Resume section...
+THEN I see a link to a downloadable resume and a list of the developer’s proficiencies.
+
+WHEN I view the footer...
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
+
+Also...the website should provide...
+
+* a single Header component that appears on multiple pages
+* a single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
+* a single Project component that will be used multiple times in the Portfolio section
 * A single Footer component that appears on multiple pages
-
-
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-
 
 
 ## Installation Instructions
 
 0. (PREPARATION PREREQUISITE PROCESS) Install the Node.js system software. Make sure that you have a GitHub membership and account to be able to view the repository of the assignment webpage system. The published GitHub Pages view of the website should be accessible on the public internet access URL without a need to have a GitHub membership/account.
-1. Install the required involved sub-module application software that is necessary for the running of the repository application...by entering the command "npm i" at a console command prompt of the repository clone directory. One of the module programs that is installed/required is the "MySQL2" database program...which is used to contain the data that the "Blog CMS" application uses. After the installation of the "MySQL2" database program...there is an additional requirement of some manual installation steps that will require the database user name and authentication information items that are contained within the main application server file.
-2. Add your database user name and password and the "blog_db" database name to an ".env" database user authentication file that is saved in the cloned repository directory: DB_NAME='blog_db'; DB_USER='user_ID'; DB_PASSWORD='user_password'; and replace the "user_ID" and "user_password" components with the appropriate user-specific information.
-3. Run the MySQL application with the "mysql" command from the clone directory console and enter the "source db/schema.sql" command to create the necessary application database; and then quit/exit the MySQL application to return to the console command line.
-4. Seed/Define the application database with the necessary tables and data by entering the command "node seeds/index".
-5. Run the application server by entering the command "npm start" or "node server". The system console should respond with the message "!!!! The Blog CMS application server is now listening. !!!!".
+1. Install the required involved sub-module application software that is necessary for the running of the repository application...by entering the command "npm i" at a console command prompt of the repository clone directory. One of the module programs that is installed/required is the "gh-pages" extra GitHub deployment system/process...which is used to display (and allow interaction) on the internet the presentation of the personal portfolio. After the installation of the "gh-pages" program...there is an additional requirement of some manual installation/setup steps that will require the settings/verifications in the "Settings" section of the GitHub repository as well as require the usage of the "npm run deploy" script command.
+2. Run the website application on the localhost computer port 3000 by using the "npm start" command.
+3. Deploy the website application to a GitHub Pages (gh-pages) page by using the "npm run deploy" script command.
 
-Note: For steps 4 and 5: Alternatively the "npm run seed" and "npm start" commands can be used to both seed the database and then start the server process.
+### The Additional NPM/Node System Modules that are Used by the Portfolio Website (as listed in the "package.json" file of the system)
+
+{
+  "name": "todd-kridel-portfolio-webpage-react",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://todd-kridel.github.io/todd-kridel-portfolio-webpage-react",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.3.4",
+    "bootstrap": "^5.2.3",
+    "dotenv": "^16.0.3",
+    "gh-pages": "^5.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
 
 
 ## Usage and Features
 
-The application is a server-based interactive full-stack system that cannot run in a full-usage mode in the GitHub Pages platform. The usage of the application required that it be deployed to the Heroku hosting system at the URL "https://tk-blog-cms-application.herokuapp.com". The following GitHut Pages deployment webpage shows some pictures that are a non-interactive preview of many of the application screens: "https://todd-kridel.github.io/TK-Blog-CMS-Application".
 
-To use this application/webpage...at after when installing the application and its database and then using the "node server" command or the "npm start" command to start the application...
 
-1. View the various items of read-only blog information that are available without a user logon.
+To use this application/website from a laptop/desktop computer...at after when installing the application and then using the "npm start" command to start the application...and then accessing localhost port 3000 view/tab of the webpage browser window...
 
-2. Create a new user account (if applicable) and then log-on to the system.
+1. Access/View the default-view "About Me" page by using the corresponding tab/button of the menu bar as-necessary.
 
-3. View the existing records and functional options that are available with a logged-on user account.
+2. Access/View the "Program Work Portfolio" page by using the corresponding tab/button of the menu bar as-necessary. Try to click the contained pictures for larger/closer views and try to click the contained "Additional Information" links.
 
-4. Add a new blog message.
+3. Access/View the "Contact Me" page by using the corresponding tab/button of the menu bar as-necessary and try to click and type in/to/from the various fields and try to click the "Submit" button and watch the contained status fields for informational messages that result from validation processes that were programmed into the corresponding system component. 
 
-5. Update the new blog message record.
+4. Access/View the "Resume" page by using the corresponding tab/button of the menu bar as-necessary. Click the contained download-file button/link and then view your "Downloads" folder to view the example resume file content.
 
-6. Attempt to update a blog message that is not yours...to experience the related record protection functionality.
+5. Try to resize the application window if the application is being used on a laptop/desktop computer...and view about how the application display responds to the size changes.
 
-7. Add a new comment to an existing blog message of another user.
+6. Try to view the application on a smartphone screen.
 
-8. Update the new comment record.
+Otherwise...to use this application/website from the published GitHub Pages system...open a webpage browser window and then navigate to the URL "https://todd-kridel.github.io/todd-kridel-portfolio-webpage-react".
 
-9. Attempt to update a message comment that is not yours...to experience the related record protection functionality.
 
-10. Delete a blog message of yours.
+The website appears as follows:
 
-11. Attempt to delete a message that is not yours...to experience the related record protection functionality.
-
-12. Delete a message comment of yours.
-
-13. Attempt to delete a message comment that is not yours...to experience the related record protection functionality.
+[![a picture of Todd Kridel's React-based personal portfolio of programming work webpage](./src/images/Challenge_20_Mockup.jpg) 
 
 
 ## Credits 
