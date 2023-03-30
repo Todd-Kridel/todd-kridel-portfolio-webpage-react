@@ -39,8 +39,8 @@ function BackToTopButton() {
   }
 
 return (
-<div style={{position: "absolute", top: "65%", zIndex: "100", borderRadius: "5px"}}>
-  <button onClick={scrollWindowToTop}>Back to Top</button>
+<div style={{position: "absolute", top: "65%", zIndex: "100"}}>
+  <button style={{borderRadius: "8px"}} onClick={scrollWindowToTop}>Back to Top</button>
 </div>
 )
 }
