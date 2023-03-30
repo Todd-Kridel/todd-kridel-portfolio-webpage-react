@@ -20,6 +20,8 @@ The React refactoring task was a significant and very-challenging learning exper
 
 The assignment also involved learning a new website deployment/publishing method that is the npm/node-based "gh-pages" module that functions with/through the GitHub Pages feature that is for React-based website systems. That system seems to be easier and more-efficient for the deployment and sharing of small-scale websites than the procedures that are involved with a Heroku deployment; but the Heroku system and its complexities might allow for the deploying/support of larger-scale more-complex websites.
 
+[ User Story and Acceptance Criteria ]
+
 The objectives -- user story and acceptance criteria items -- of the assignment were as follows:
 
 GIVEN a single-page application portfolio for a web developer
@@ -60,12 +62,16 @@ THEN I see a link to a downloadable resume and a list of the developer’s profi
 WHEN I view the footer...
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter).
 
-Also...the website should provide...
+[ Additional Grading Criteria ]
+
+Also...the website should have/provide...
 
 * a single Header component that appears on multiple pages
 * a single Navigation component within the header that will be used to conditionally render the different sections of your portfolio
 * a single Project component that will be used multiple times in the Portfolio section
 * A single Footer component that appears on multiple pages
+
+Also good coding practices and good GitHub/Git repository configuration.
 
 
 ## Installation Instructions
@@ -78,55 +84,97 @@ Also...the website should provide...
 ### The Additional NPM/Node System Modules that are Used by the Portfolio Website (as listed in the "package.json" file of the system)
 
 {
+
   "name": "todd-kridel-portfolio-webpage-react",
+
   "version": "1.0.0",
+
   "private": true,
+
   "homepage": "https://todd-kridel.github.io/todd-kridel-portfolio-webpage-react",
+
   "dependencies": {
+
     "@testing-library/jest-dom": "^5.16.4",
+
     "@testing-library/react": "^11.1.0",
+
     "@testing-library/user-event": "^13.5.0",
+
     "axios": "^1.3.4",
+
     "bootstrap": "^5.2.3",
+
     "dotenv": "^16.0.3",
+
     "gh-pages": "^5.0.0",
+
     "react": "17.0.2",
+
     "react-dom": "17.0.2",
+
     "react-scripts": "5.0.1",
+
     "web-vitals": "^2.1.4"
+
   },
+
   "scripts": {
+
     "predeploy": "npm run build",
+
     "deploy": "gh-pages -d build",
+
     "start": "react-scripts start",
+
     "build": "react-scripts build",
+
     "test": "react-scripts test",
+
     "eject": "react-scripts eject"
+
   },
+
   "eslintConfig": {
+
     "extends": [
+
       "react-app",
+
       "react-app/jest"
+
     ]
+
   },
+
   "browserslist": {
+
     "production": [
+
       ">0.2%",
+
       "not dead",
+
       "not op_mini all"
+
     ],
+
     "development": [
+
       "last 1 chrome version",
+
       "last 1 firefox version",
+
       "last 1 safari version"
+
     ]
+
   }
+
 }
 
 
 ## Usage and Features
-
-
 
 To use this application/website from a laptop/desktop computer...at after when installing the application and then using the "npm start" command to start the application...and then accessing localhost port 3000 view/tab of the webpage browser window...
 
@@ -147,7 +195,7 @@ Otherwise...to use this application/website from the published GitHub Pages syst
 
 The website appears as follows:
 
-[![a picture of Todd Kridel's React-based personal portfolio of programming work webpage](./src/images/Challenge_20_Mockup.jpg) 
+![a picture of Todd Kridel's React-based personal portfolio of programming work webpage](./src/images/Challenge_20_Mockup.jpg) 
 
 
 ## Credits 
