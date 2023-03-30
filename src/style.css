@@ -29,18 +29,27 @@ html, body {
 
 .bodySectionContainer {
   padding: 10px;
-  height: 60vh;
+  height: 69vh;
   overflow: auto;
   background-color: rgb(245, 235, 225);
   font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
 }
 
 .header, .footer {
+  background: url("./images/main_background_art.jpg") no-repeat 100% center;
+  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.header {
   height: 100px;
   padding-top: 25px;
   padding-bottom: 25px;
-  background: url("./images/main_background_art.jpg") no-repeat 100% center;
-  font-family: "Comic Sans MS", Arial, Helvetica, Verdana, sans-serif;
+}
+
+.footer {
+  height: 50px;
+  padding-top: 7px;
+  padding-bottom: 7px;
 }
 
 .header h1, .footer h1, .footer h4 {
@@ -51,7 +60,7 @@ html, body {
   text-align: center;
   color: white;
   font-size: 25px;
-  line-height: 35px;
+  font-weight: bold;
   background: #f9b713;
   margin-left: 5%;
   margin-right: 5%;
@@ -59,7 +68,11 @@ html, body {
 }
 
 .header h1 {
-  font-weight: bold;
+  line-height: 35px;
+}
+
+.footer h1 {
+  line-height: 25px;
 }
 
 .footer h4 {
