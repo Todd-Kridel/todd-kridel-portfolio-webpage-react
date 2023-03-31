@@ -186,6 +186,9 @@ button:active {
 .nav-link:hover {  /*  className = ".nav-link active" ? */
   color: yellow !important;  /* or purple */
   border-color: white;
+  height: 30px;
+  padding-top: 0px;
+  margin-top: 0px;
 }
 
 .nav-link_active {
