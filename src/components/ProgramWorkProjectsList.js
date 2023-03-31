@@ -34,7 +34,6 @@ return (
 function Project__ToBeCompletedProjects() {
   return (
   <div>
-    <br/>
     <h2 className="portfolioSection">To-Be-Completed Projects</h2>
     <br/>
     <p class="pCenter">
