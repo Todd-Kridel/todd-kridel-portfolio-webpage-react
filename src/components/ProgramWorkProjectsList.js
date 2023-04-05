@@ -11,7 +11,7 @@ return (
   <Project__ToBeCompletedProjects />
 
   <h2 className="portfolioSection">Completed Projects</h2>
-  {thePortfolioProjectList.map((project) => (
+  {thePortfolioProjectListInformation.map((project) => (
     <Project project={project} />
   ))}
 </div>
@@ -58,7 +58,7 @@ return (
 ///////////////// BEGIN: Project List Item Description Sections /////////////////
 
 
-const thePortfolioProjectList =   //  {=&#123 (%7B) }=&#125 (%7D)
+const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 [
 {
 "projectTitle": "React JSX Personal Work Portfolio Website", 
