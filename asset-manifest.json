@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/todd-kridel-portfolio-webpage-react/static/css/main.597a28ba.css",
-    "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.5367cb25.js",
+    "main.js": "/todd-kridel-portfolio-webpage-react/static/js/main.2c0f5e51.js",
     "static/media/additional_project_detail--In-Progress.png": "/todd-kridel-portfolio-webpage-react/static/media/additional_project_detail--In-Progress.1a59ea7c2e889dcfaac2.png",
     "static/media/main_background_art.jpg": "/todd-kridel-portfolio-webpage-react/static/media/main_background_art.f25c7b0c0d4dfa35bdc8.jpg",
     "static/media/project_picture_gears+.png": "/todd-kridel-portfolio-webpage-react/static/media/project_picture_gears+.0e55d8a4d8e02006bfb4.png",
@@ -12,10 +12,10 @@
     "static/media/Projects--Hoped-For_Future.txt": "/todd-kridel-portfolio-webpage-react/static/media/Projects--Hoped-For_Future.cbb7b0328a595ea5882b.txt",
     "index.html": "/todd-kridel-portfolio-webpage-react/index.html",
     "main.597a28ba.css.map": "/todd-kridel-portfolio-webpage-react/static/css/main.597a28ba.css.map",
-    "main.5367cb25.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.5367cb25.js.map"
+    "main.2c0f5e51.js.map": "/todd-kridel-portfolio-webpage-react/static/js/main.2c0f5e51.js.map"
   },
   "entrypoints": [
     "static/css/main.597a28ba.css",
-    "static/js/main.5367cb25.js"
+    "static/js/main.2c0f5e51.js"
   ]
 }
