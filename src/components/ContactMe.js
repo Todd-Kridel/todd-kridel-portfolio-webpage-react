@@ -82,8 +82,8 @@ if (statusMessage == "Thanks about contacting me about your question or/and comm
 // a validation setStatusMessage: "The entered Contact form information is not valid (such as a blank 
 // field or a non-valid email address format)."
 //
-if (!submitProcessingIsOccurring) 
-{
+//if (!submitProcessingIsOccurring) 
+//{
 //
 if (inputType === "userName")
   {
@@ -159,7 +159,7 @@ else if (inputType === "comment")
     determineOverallFieldStatus();
     }
   }
-} // END: if (!submitProcessingIsOccurring)
+//} // END: if (!submitProcessingIsOccurring)
 //
 // Determine about the current overall good/ready status with regard to all 3 validation fields for usage 
 // for successful submission capability.
