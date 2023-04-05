@@ -9,7 +9,8 @@ import project_picture_gears from "../images/project_picture_gears+.png";
 // "projectTitle": "", 
 // "projectDescription": "", 
 // "projectPictureHTMLLinks": ``, 
-// "projectAdditionalInformationHTMLLinks": //
+// "projectExtraDescription": ""  // optional/conditional
+// "projectAdditionalInformationHTMLLinks": ``
 
 
 function Project({project}) {
