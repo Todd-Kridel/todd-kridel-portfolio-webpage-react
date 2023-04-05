@@ -7,9 +7,7 @@ import Project from "./Project";
 function ProgramWorkProjectsList() {
 return (
 <div>
-
   <Project__ToBeCompletedProjects />
-
   <h2 className="portfolioSection">Completed Projects</h2>
   {thePortfolioProjectListInformation.map((project) => (
     <Project project={project} />
@@ -17,6 +15,35 @@ return (
 </div>
 )
 }
+
+
+// the previous approach 
+// (a non-dynamic hardcoded listing of projects information in separate components )
+// (but the project information is not imported from an array database at below)
+//
+// function ProgramWorkProjectsList() {
+//   return (
+//   <div>
+//     <Project__ToBeCompletedProjects />
+//     <Project__ReactPersonalWorkPortfolio />
+//     <Project__SocialNetworkAPI />
+//     <Project__BlogCMSApplication />
+//     <Project__OnlineBakeryStore />
+//     <Project__ECommerceServer />
+//     <Project__EmployeeDatabaseManager />
+//     <Project__NoteTakerApplication />
+//     <Project__EmployeeRecordDisplaySystem />
+//     <Project__READMEFileGenerator />
+//     <Project__WeatherForecastApplication />
+//     <Project__CampsiteFinder />
+//     <Project__WorkdayTimeScheduler />
+//     <Project__QuizGame />
+//     <Project__PasswordGenerator />
+//     <Project__HTMLCSSPersonalWorkPortfolioWebsite />
+//     <Project__CompanyWebsite />
+//   </div>
+//   )
+//   }
 
 
 ///////////////// BEGIN: Additional Project Information /////////////////
@@ -58,7 +85,7 @@ return (
 ///////////////// BEGIN: Project List Item Description Sections /////////////////
 
 
-const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
+const thePortfolioProjectListInformation =   //  a pretend database for importing from
 [
 {
 "projectTitle": "React JSX Personal Work Portfolio Website", 
