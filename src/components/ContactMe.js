@@ -195,6 +195,7 @@ if (inputValue.trim() == "")
   document.getElementById("statusMessageDisplayField").value = 
     ">>>> FYI: The just-exited entry field (" + inputType + ") requires an entry value for a submission. <<<<";
   }
+handleInputOnChangeEvent(e);
 }  // END: handleInputOnBlurEvent
 
 
@@ -276,6 +277,7 @@ return (
       name="userName"
       onChange={handleInputOnChangeEvent}
       onBlur={handleInputOnBlurEvent}
+      onKeyUp={handleInputOnChangeEvent}
       type = "text"
       placeholder="(at least a first/alias name)"
     />
@@ -287,6 +289,7 @@ return (
       name="email"
       onChange={handleInputOnChangeEvent}
       onBlur={handleInputOnBlurEvent}
+      onKeyUp={handleInputOnChangeEvent}
       type="email"
       placeholder="example: 'user@email.com'"
     />
@@ -298,6 +301,7 @@ return (
       name="comment"
       onChange={handleInputOnChangeEvent}
       onBlur={handleInputOnBlurEvent}
+      onKeyUp={handleInputOnChangeEvent}
       type="textarea"
       placeholder="(required field; at least 1 character (preferably at least 1 word))"
     ></textarea>
