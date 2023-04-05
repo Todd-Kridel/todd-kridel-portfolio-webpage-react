@@ -18,7 +18,7 @@ return (
   <br/>
   <p className="pCenter"><img src={project_picture_gears} width="25%"></img></p>
   <h3 className="portfolioHeading">{project.projectTitle}</h3>
-  <p className="pCenter">{project.projectDescription}</p>
+  <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectDescription}}></p>
   <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectPictureHTMLLinks}}></p>
   <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectAdditionalInformationHTMLLinks}}></p>  
 </div>

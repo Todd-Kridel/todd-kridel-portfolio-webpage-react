@@ -101,9 +101,9 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Online Bakery Store", 
 "projectDescription": 
-  `<p>team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics <br/>
+  `team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics<br/>
   <br/>
-  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>`, 
+  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
 "projectPictureHTMLLinks": `<a href="./images/Project 2 Sweet Solution Demo.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_OnlineBakeryStore" width="50%" src="./images/Project 2 Sweet Solution Demo.jpg" 
   class="portfolioImg" title="a picture of the 'Sweet Solution' 2nd team project" /></a>`, 
@@ -191,9 +191,9 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Campsite Finder", 
 "projectDescription": 
-  `<p>team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics <br/>
+  `team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics<br/>
   <br/>
-  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++</p>`, 
+  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
 "projectPictureHTMLLinks": `<a href="./images/Project 1 -- Project Camp.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_CampsiteFinder" width="50%" src="./images/Project 1 -- Project Camp.jpg" 
   class="portfolioImg" title="a picture of the 'Project Camp' 1st team project" /></a>`, 
