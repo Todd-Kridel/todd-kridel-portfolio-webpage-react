@@ -18,8 +18,9 @@ return (
   <br/>
   <p className="pCenter"><img src={project_picture_gears} width="25%"></img></p>
   <h3 className="portfolioHeading">{project.projectTitle}</h3>
-  <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectDescription}}></p>
+  <p className="pCenter">{project.projectDescription}</p>
   <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectPictureHTMLLinks}}></p>
+  {project.projectExtraDescription ? <p className="pCenter">{project.projectExtraDescription}</p> : <></>}
   <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectAdditionalInformationHTMLLinks}}></p>  
 </div>
 );
@@ -30,6 +31,8 @@ export default Project;
 
 
 // other futzing:
+
+// <p className="pCenter" dangerouslySetInnerHTML={{__html: project.projectDescription}}></p>
 
 // {imagesIndex.map(({id, src, title}) => <img src={`${src}`}/>)}
 // console.log("img: " + id)); // <img key={id} src={src} title={title} />

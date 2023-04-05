@@ -66,7 +66,8 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Challenge_20_Mockup.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_ReactPersonalWorkPortfolio" width="50%" src="./images/Challenge_20_Mockup.jpg" 
   class="portfolioImg" 
-  title="a picture and a link of the React JSX Personal Work Portfolio Website work project" /></a>`,
+  title="a picture and a link of the React JSX Personal Work Portfolio Website work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": 
   `<a href="https://todd-kridel.github.io/todd-kridel-portfolio-webpage-react" target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -80,6 +81,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
   <img id="work_image_SocialNetworkAPI" width="50%" src="./images/Challenge 18 Mockup.jpg" class="portfolioImg"
   title="a picture and a link of the Social Network API Application work project" target="_blank" 
   rel="noreferrer"/></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Social-Network-API" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a><br/>
@@ -92,6 +94,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Challenge_14_mockup_0.jpg")} target="_blank" rel="noreferrer">
   <img id="work_image_BlogCMSApplication" width="50%" src="./images/Challenge_14_mockup_0.jpg" 
   class="portfolioImg" title="a picture and a link of the Blog CMS Database Application work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Blog-CMS-Application" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages demo pictures and Heroku internet deployment ]</a><br/>
@@ -101,12 +104,11 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Online Bakery Store", 
 "projectDescription": 
-  `team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics<br/>
-  <br/>
-  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
+  "team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics", 
 "projectPictureHTMLLinks": `<a href="./images/Project 2 Sweet Solution Demo.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_OnlineBakeryStore" width="50%" src="./images/Project 2 Sweet Solution Demo.jpg" 
   class="portfolioImg" title="a picture of the 'Sweet Solution' 2nd team project" /></a>`, 
+"projectExtraDescription": "++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://sweet-solution.herokuapp.com" target="_blank" 
   rel="noreferrer">
   [ More Information: Heroku internet deployment ]</a><br/>
@@ -119,6 +121,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Challenge_13_Mockup.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_ECommerceServer" width="50%" src="./images/Challenge_13_Mockup.jpg" 
   class="portfolioImg" title="a picture and a link of the E-Commerce Server work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-E-Commerce-Server" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a><br/>
@@ -131,6 +134,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/TK-EMPLOYEE-MANAGER.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_EmployeeDatabaseManager" width="50%" src="./images/TK-EMPLOYEE-MANAGER.jpg" 
   class="portfolioImg" title="a picture and a link of the Employee Database Manager work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Employee-Manager" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a><br/>
@@ -143,6 +147,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Module_11_Mockup+.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_NoteTakerApplication" width="50%" src="./images/Module_11_Mockup+.jpg" 
   class="portfolioImg"  title="a picture and a link of the Note Taker application work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://tk-note-taker.herokuapp.com/index.html" target="_blank" 
   rel="noreferrer">
   [ More Information: Heroku internet deployment ]</a><br/>
@@ -155,6 +160,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Challenge_10_demo.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_EmployeeRecordDisplaySystem" width="50%" src="./images/Challenge_10_demo.jpg" 
   class="portfolioImg" title="a picture and a link of the Employee Record Display System work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": 
   `<a href="https://todd-kridel.github.io/TK-Team-Employee-Information-Profile-Webpage-Generator" target="_blank" 
   rel="noreferrer">
@@ -170,6 +176,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
   rel="noreferrer"><img id="work_image_READMEFileGenerator" width="50%" 
   src="./images/Successful_Test_of_Challenge_9_App.jpg" class="portfolioImg"
   title="a picture and a link of the README File Generator work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-README-File-Generator" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages demo pictures/videos and extra description file ]</a><br/>
@@ -182,6 +189,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/TK-Weather-Forecast-Tracker+.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_WeatherForecastApplication" width="50%" src="./images/TK-Weather-Forecast-Tracker+.jpg" 
   class="portfolioImg" title="a picture and a link of the Weather Forecast Application work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Weather-Forecast-Tracker" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -191,12 +199,11 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Campsite Finder", 
 "projectDescription": 
-  `team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics<br/>
-  <br/>
-  ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
+  "team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics", 
 "projectPictureHTMLLinks": `<a href="./images/Project 1 -- Project Camp.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_CampsiteFinder" width="50%" src="./images/Project 1 -- Project Camp.jpg" 
   class="portfolioImg" title="a picture of the 'Project Camp' 1st team project" /></a>`, 
+"projectExtraDescription": "++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://alester77.github.io/Project-Camp" target="_blank" 
   rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -209,6 +216,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Module 5 Mockup.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_WorkdayTimeScheduler" width="50%" src="./images/Module 5 Mockup.jpg" class="portfolioImg"
   title="a picture of the Time Scheduler work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Work-Day-Scheduler" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -221,6 +229,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Module 4 Mockup.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_QuizGame" width="50%" src="./images/Module 4 Mockup.jpg" class="portfolioImg" 
   title="a picture of the Quiz Game work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Coding-Quiz" target="_blank" 
   rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -233,6 +242,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 "projectPictureHTMLLinks": `<a href="./images/Module 3 Mockup.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_PasswordGenerator" width="50%" src="./images/Module 3 Mockup.jpg" class="portfolioImg" 
   title="a picture of the Password Generator work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/TK-Password-Generator" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -246,6 +256,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
   <img id="work_image_HTMLCSSPersonalWorkPortfolioWebsite" width="50%" 
   src="./images/Personal_Portfolio_appearance.jpg")} class="portfolioImg"
   title="a picture and a link of the HTML/CSS (Non-React) Personal Work Portfolio Website work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/Todd-Kridel-Portfolio-Webpage" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
@@ -259,6 +270,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
   rel="noreferrer"><img id="work_image_CompanyWebsite" width="50%" 
   src="./images/Horiseon-Company-Website-Refactory.jpg" class="portfolioImg"
   title="a picture and a link of the Horiseon Company Website work project" /></a>`, 
+"projectExtraDescription": "", 
 "projectAdditionalInformationHTMLLinks": `<a href="https://todd-kridel.github.io/Bootcamp_Module_1_Challenge" 
   target="_blank" rel="noreferrer">
   [ More Information: GitHub Pages internet deployment ]</a><br/>
