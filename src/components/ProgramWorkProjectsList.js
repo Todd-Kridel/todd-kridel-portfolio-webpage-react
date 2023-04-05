@@ -101,7 +101,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Online Bakery Store", 
 "projectDescription": 
-  `team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics&NewLine
+  `team project, GitHub, databases, Sequelize, Node, Handlebars, authentication, previous topics <br><br>
   ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
 "projectPictureHTMLLinks": `<a href="./images/Project 2 Sweet Solution Demo.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_OnlineBakeryStore" width="50%" src="./images/Project 2 Sweet Solution Demo.jpg" 
@@ -190,7 +190,7 @@ const thePortfolioProjectListInformation =   //  {=&#123 (%7B) }=&#125 (%7D)
 {
 "projectTitle": "Campsite Finder", 
 "projectDescription": 
-  `team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics&NewLine
+  `team project (teamwork), project plans, remote work, APIs, GitHub, storage, previous topics <br><br>
   ++ EXCELLENT DESCRIPTION TEXT THAT IS TO BE CREATED AND INSERTED AT HERE ++`, 
 "projectPictureHTMLLinks": `<a href="./images/Project 1 -- Project Camp.jpg" target="_blank" rel="noreferrer">
   <img id="work_image_CampsiteFinder" width="50%" src="./images/Project 1 -- Project Camp.jpg" 
