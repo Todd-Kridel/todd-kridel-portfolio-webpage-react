@@ -116,6 +116,19 @@ const thePortfolioProjectListInformation =   //  a pretend database for importin
   [ More Information: GitHub repository README description file ]</a>`
 }, 
 {
+"projectTitle": "RegEx Tutorial Gist Web-Document", 
+"projectDescription": "RegEx Components and Functionality, Analyzing/Describing Logic, GitHub Gist Publishing", 
+"projectPictureHTMLLinks": `<a href="./images/RegEx-Tutorial-Gist-Document.jpg")} target="_blank" rel="noreferrer">
+  <img id="work_image_RegExTutorialGistWebDocument" width="50%" src="./images/RegEx-Tutorial-Gist-Document.jpg" 
+  class="portfolioImg" title="a picture and a link of the RegEx Tutorial Gist Web-Document work project" /></a>`, 
+"projectExtraDescription": "", 
+"projectAdditionalInformationHTMLLinks": `<a href="https://gist.github.com/Todd-Kridel/edcd0d1ae576d43e5d86165571252158#table-of-contents" 
+  target="_blank" rel="noreferrer">
+  [ More Information: The "RegEx-celling" GitHub Gist published web-document ]</a><br/>
+  <a href="https://github.com/Todd-Kridel/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
+  [ More Information: GitHub Gist publication site ]</a>`
+}, 
+{
 "projectTitle": "Blog CMS Application", 
 "projectDescription": "full-stack server-and-GUI database application, Sequelize, Node, Express", 
 "projectPictureHTMLLinks": `<a href="./images/Challenge_14_mockup_0.jpg")} target="_blank" rel="noreferrer">
