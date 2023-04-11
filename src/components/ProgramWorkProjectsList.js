@@ -125,7 +125,7 @@ const thePortfolioProjectListInformation =   //  a pretend database for importin
 "projectAdditionalInformationHTMLLinks": `<a href="https://gist.github.com/Todd-Kridel/edcd0d1ae576d43e5d86165571252158#table-of-contents" 
   target="_blank" rel="noreferrer">
   [ More Information: The "RegEx-celling" GitHub Gist published web-document ]</a><br/>
-  <a href="https://github.com/Todd-Kridel/TK-Blog-CMS-Application" target="_blank" rel="noreferrer">
+  <a href="https://gist.github.com/discover" target="_blank" rel="noreferrer">
   [ More Information: GitHub Gist publication site ]</a>`
 }, 
 {
