@@ -272,7 +272,7 @@ return (
   <p className="pCenter">
     <label for="theContactFormUserName">Name:</label>&nbsp;&nbsp;<input
       id="theContactFormUserName" 
-      class="contactFormInputField"
+      className="contactFormInputField"
       //value=
       name="userName"
       onChange={handleInputOnChangeEvent}
@@ -284,7 +284,7 @@ return (
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
     <label for="theContactFormEmailAddress">Email&nbsp;Address:</label>&nbsp;&nbsp;<input
       id="theContactFormEmailAddress" 
-      class="contactFormInputField"
+      className="contactFormInputField"
       //value=
       name="email"
       onChange={handleInputOnChangeEvent}
@@ -307,7 +307,7 @@ return (
     ></textarea>
   </p>
   <p className = "pCenter">Current-Operation Status Message:<br/>
-    <input id="statusMessageDisplayField" className="contactFormStatusText" readonly="true" 
+    <input id="statusMessageDisplayField" className="contactFormStatusText" readOnly="true" 
       style={{width: "90%"}}>
     </input>
   </p>
