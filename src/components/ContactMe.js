@@ -318,7 +318,7 @@ return (
     </button>
   </p>
   <p className = "pCenter">Overall Status Code:<br/>
-    <input id="statusCodeDisplayField" className="contactFormStatusCode" readonly="true" 
+    <input id="statusCodeDisplayField" className="contactFormStatusCode" readOnly="true" 
       style={{width: "150px", textAlign: "center"}}>
     </input>
   </p>
